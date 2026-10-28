@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EC5 project metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "ec_id": {
+      "const": "EC5"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_state": {
+      "enum": [
+        "read",
+        "partial",
+        "pending_access"
+      ]
+    },
+    "artifact_state": {
+      "enum": [
+        "draft",
+        "reviewed"
+      ]
+    },
+    "student_verification": {
+      "enum": [
+        "pending",
+        "verified"
+      ]
+    },
+    "activity_dates": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "hours": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "role": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "impact": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "retrospective_preparation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "preparation_note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verification_evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "personal_field_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "activity_dates": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "hours": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "role": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "impact": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "ec_id",
+    "title",
+    "source_state",
+    "artifact_state",
+    "student_verification",
+    "activity_dates",
+    "hours",
+    "role",
+    "impact",
+    "retrospective_preparation_date",
+    "preparation_note"
+  ]
+}
