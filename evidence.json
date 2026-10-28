@@ -1,0 +1,453 @@
+{
+  "sources": [
+    {
+      "id": "S-EC5-001",
+      "title": "User-shared CES2025 presentation",
+      "url": "https://docs.google.com/presentation/d/1peRhHYgJG_D8uguCsuhvRnjvRsCMFWyXUypYKYCSjGI/edit",
+      "type": "activity_primary",
+      "access_status": "read",
+      "accessed_on": "2026-10-28",
+      "locator_scheme": "presentation slide number + text run index",
+      "notes": "12-slide PPTX public export read; text order checked using presentation relationships. No images/notes rendered; authorship, activity date and attendance unverified.",
+      "version": "PPTX acquired 2026-10-28",
+      "checksum_sha256": "54afad5df9edde276dc3ec89b77cf48078ec6d92a1c3ef79b82b3eb33994c2ca",
+      "local_path": "sources/slides.json",
+      "local_checksum_sha256": "8feb7166401b59ef977d214a5e69bf66c806fb78be1ba7688eef300b0aee98e9",
+      "original_path": "sources/original.pptx"
+    },
+    {
+      "id": "S-EC5-002",
+      "title": "NIST FIPS 203 (2024 final)",
+      "url": "https://csrc.nist.gov/pubs/fips/203/final",
+      "type": "standard",
+      "access_status": "read",
+      "accessed_on": "2026-10-28",
+      "locator_scheme": "Abstract",
+      "notes": "Read 2026-10-28; final standard published 2024-08-13. Current landing page also contains a later planning note, not attributed to 2025 activity."
+    },
+    {
+      "id": "S-EC5-003",
+      "title": "NIST FIPS 204 (2024 final)",
+      "url": "https://csrc.nist.gov/pubs/fips/204/final",
+      "type": "standard",
+      "access_status": "read",
+      "accessed_on": "2026-10-28",
+      "locator_scheme": "Abstract",
+      "notes": "Read current landing-page abstract; later 2026 errata note is not part of original CES2025 activity."
+    },
+    {
+      "id": "S-EC5-004",
+      "title": "NIST FIPS 205 (2024 final)",
+      "url": "https://csrc.nist.gov/pubs/fips/205/final",
+      "type": "standard",
+      "access_status": "read",
+      "accessed_on": "2026-10-28",
+      "locator_scheme": "Abstract",
+      "notes": "Read 2026-10-28; final standard published 2024-08-13."
+    },
+    {
+      "id": "S-EC5-005",
+      "title": "NSA QKD and Quantum Cryptography",
+      "url": "https://www.nsa.gov/Cybersecurity/Quantum-Key-Distribution-QKD-and-Quantum-Cryptography-QC/",
+      "type": "government_guidance",
+      "access_status": "read",
+      "accessed_on": "2026-10-28",
+      "locator_scheme": "Technical limitations items 1,2,4",
+      "notes": "Technical limitations used; page includes historical standardization language, so it is not used for current NIST-standard status or a universal policy conclusion."
+    },
+    {
+      "id": "S-EC5-006",
+      "title": "NCCoE Migration to Post-Quantum Cryptography",
+      "url": "https://www.nccoe.nist.gov/applied-cryptography/migration-to-pqc",
+      "type": "government_guidance",
+      "access_status": "read",
+      "accessed_on": "2026-10-28",
+      "locator_scheme": "Project introduction and two workstreams",
+      "notes": "Current page read retrospectively. Inventory and interoperability framing used; no unsupported universal regulatory deadline inferred."
+    },
+    {
+      "id": "S-EC5-007",
+      "title": "QuSecure product leadership press release",
+      "url": "https://www.qusecure.com/qusecure-named-as-global-product-leader-in-post-quantum-cryptography-industry-by-frost-sullivan/",
+      "type": "vendor_primary",
+      "access_status": "read",
+      "accessed_on": "2026-10-28",
+      "locator_scheme": "Dated release body and About section",
+      "notes": "Vendor-hosted release with 2024 dateline; current page includes later site content. Not an independent validation, deployment audit or immutable 2024 snapshot."
+    },
+    {
+      "id": "S-EC5-008",
+      "title": "Quranium DeQUIP page",
+      "url": "https://www.quranium.org/dequip",
+      "type": "vendor_primary",
+      "access_status": "read",
+      "accessed_on": "2026-10-28",
+      "locator_scheme": "DeQUIP heading and DeQUIP Alliance section",
+      "notes": "Current vendor marketing; not a dated CES2025 snapshot, security proof or independent benchmark."
+    },
+    {
+      "id": "S-EC5-009",
+      "title": "Generated migration scenarios",
+      "url": "results/migration_scenarios.json",
+      "type": "generated",
+      "access_status": "read",
+      "accessed_on": "2026-10-28",
+      "locator_scheme": "rows by asset_id and horizon_years",
+      "notes": "New AI-assisted synthetic calculation made 2026-10-28; not a student experiment in 2025.",
+      "local_path": "results/migration_scenarios.json",
+      "checksum_sha256": "cc7dd7dce45185b0ab939a24f97c85a4ce6dd0d035d251b1bf9ad84cbbe44a90",
+      "local_checksum_sha256": "cc7dd7dce45185b0ab939a24f97c85a4ce6dd0d035d251b1bf9ad84cbbe44a90"
+    }
+  ],
+  "observations": [
+    {
+      "id": "O-EC5-001",
+      "text": "The deck introduces PQC as algorithms intended to withstand quantum-computer attacks.",
+      "source_id": "S-EC5-001",
+      "locator": "slide 4; text runs 1-4",
+      "status": "verified_source_content",
+      "limitations": "Source content is verified; the underlying technical or personal claim is not automatically established."
+    },
+    {
+      "id": "O-EC5-002",
+      "text": "The deck describes security against classical and quantum attacks without stating assumptions or implementation conditions.",
+      "source_id": "S-EC5-001",
+      "locator": "slide 4; text run 2",
+      "status": "verified_source_content",
+      "limitations": "Source content is verified; the underlying technical or personal claim is not automatically established."
+    },
+    {
+      "id": "O-EC5-003",
+      "text": "The deck contrasts mathematical/software PQC with quantum-mechanical communication technology and specialized hardware.",
+      "source_id": "S-EC5-001",
+      "locator": "slide 5; text runs 1-8",
+      "status": "verified_source_content",
+      "limitations": "Source content is verified; the underlying technical or personal claim is not automatically established."
+    },
+    {
+      "id": "O-EC5-004",
+      "text": "The deck identifies RSA/ECC exposure and lists protection, future readiness, compliance and national/economic security motivations.",
+      "source_id": "S-EC5-001",
+      "locator": "slide 7; text runs 1-8",
+      "status": "verified_source_content",
+      "limitations": "Source content is verified; the underlying technical or personal claim is not automatically established."
+    },
+    {
+      "id": "O-EC5-005",
+      "text": "QuSecure is presented with alliance membership, QuProtect and a U.S. government implementation claim.",
+      "source_id": "S-EC5-001",
+      "locator": "slide 9; text runs 1-6",
+      "status": "verified_source_content",
+      "limitations": "Source content is verified; the underlying technical or personal claim is not automatically established."
+    },
+    {
+      "id": "O-EC5-006",
+      "text": "Quranium is presented with DeQUIP, a Layer-2/security/scalability statement and an ExeQuantum collaboration statement.",
+      "source_id": "S-EC5-001",
+      "locator": "slide 10; text runs 1-4",
+      "status": "verified_source_content",
+      "limitations": "Source content is verified; the underlying technical or personal claim is not automatically established."
+    },
+    {
+      "id": "O-EC5-007",
+      "text": "The reference slide lists Thales, a repeated Palo Alto Networks URL and a QuSecure release; it contains no Quranium-specific URL.",
+      "source_id": "S-EC5-001",
+      "locator": "slide 12; text runs 1-5",
+      "status": "verified_source_content",
+      "limitations": "Source content is verified; the underlying technical or personal claim is not automatically established."
+    },
+    {
+      "id": "O-EC5-008",
+      "text": "FIPS 203 specifies ML-KEM for shared-secret establishment and describes security as a present belief tied to a computational problem.",
+      "source_id": "S-EC5-002",
+      "locator": "Abstract; KEM definition and security paragraphs",
+      "status": "verified_source_content",
+      "limitations": "Standard-level statement does not validate a particular deployment or product."
+    },
+    {
+      "id": "O-EC5-009",
+      "text": "FIPS 204 specifies ML-DSA for digital-signature generation and verification.",
+      "source_id": "S-EC5-003",
+      "locator": "Abstract; ML-DSA paragraph",
+      "status": "verified_source_content",
+      "limitations": "Algorithm function is not deployment assurance."
+    },
+    {
+      "id": "O-EC5-010",
+      "text": "FIPS 205 specifies the hash-based SLH-DSA signature algorithm.",
+      "source_id": "S-EC5-004",
+      "locator": "Abstract; SLH-DSA and SPHINCS+ paragraphs",
+      "status": "verified_source_content",
+      "limitations": "Algorithm function is not deployment assurance."
+    },
+    {
+      "id": "O-EC5-011",
+      "text": "NSA explains that QKD requires source authentication and specialized equipment, and practical assurance depends on engineering.",
+      "source_id": "S-EC5-005",
+      "locator": "Technical limitations; items 1,2,4",
+      "status": "verified_source_content",
+      "limitations": "Government NSS guidance is not a universal ban or complete research comparison of every QKD design."
+    },
+    {
+      "id": "O-EC5-012",
+      "text": "NCCoE separates cryptographic discovery/risk prioritization from interoperability testing.",
+      "source_id": "S-EC5-006",
+      "locator": "Two workstreams; introduction",
+      "status": "verified_source_content",
+      "limitations": "Framework inspiration; the synthetic model is not a NIST-prescribed scoring algorithm."
+    },
+    {
+      "id": "O-EC5-013",
+      "text": "The cited QuSecure page reports a product-leadership award and describes orchestration/crypto-agility in its vendor release.",
+      "source_id": "S-EC5-007",
+      "locator": "Dated release body; 2024 award and QuProtect paragraphs",
+      "status": "verified_source_content",
+      "limitations": "Vendor statements are not independent evidence of performance, government authorization or student interaction."
+    },
+    {
+      "id": "O-EC5-014",
+      "text": "Quranium describes DeQUIP as a category/alliance it invites organizations to help establish.",
+      "source_id": "S-EC5-008",
+      "locator": "DeQUIP Alliance section",
+      "status": "verified_source_content",
+      "limitations": "Current marketing description does not substantiate Layer-2 architecture or unconditional security."
+    },
+    {
+      "id": "O-EC5-015",
+      "text": "The deterministic run emits 15 rows for 5 synthetic assets under 3 hypothetical horizons; A-001 triggers at 5 and 10 years and has +2 years slack at 20.",
+      "source_id": "S-EC5-009",
+      "locator": "rows; A-001 horizons 5,10,20; all rows",
+      "status": "generated",
+      "limitations": "Illustrative input assumptions; no forecast, live measurement or vendor comparison."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C-EC5-001",
+      "text": "The presentation provides a conceptual starting point for a PQC inquiry, not evidence of a completed PQC implementation.",
+      "kind": "source_observation",
+      "evidence_ids": [
+        "O-EC5-001",
+        "O-EC5-003",
+        "O-EC5-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-EC5-001",
+          "locator": "slide 4; text runs 1-4"
+        },
+        {
+          "source_id": "S-EC5-001",
+          "locator": "slide 5; text runs 1-8"
+        },
+        {
+          "source_id": "S-EC5-001",
+          "locator": "slide 12; text runs 1-5"
+        }
+      ],
+      "reasoning": "Its extracted text presents definitions, motivations and company examples, without a documented implementation method or measurements.",
+      "counterargument": "Visual content or speaker notes not captured by text extraction could contain additional evidence.",
+      "limitation": "Conclusion is limited to extracted text; student authorship and attendance remain unverified.",
+      "status": "qualified"
+    },
+    {
+      "id": "C-EC5-002",
+      "text": "Replace blanket security language with conditional resistance and explicitly separate algorithm choice from system assurance.",
+      "kind": "retrospective_analysis",
+      "evidence_ids": [
+        "O-EC5-002",
+        "O-EC5-008"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-EC5-001",
+          "locator": "slide 4; text run 2"
+        },
+        {
+          "source_id": "S-EC5-002",
+          "locator": "Abstract; KEM definition and security paragraphs"
+        }
+      ],
+      "reasoning": "The deck uses unconditional phrasing, whereas the standard describes a computational assumption and present security belief.",
+      "counterargument": "Short introductory slides often simplify to make an idea understandable.",
+      "limitation": "This audit does not prove any attack or validate an implementation.",
+      "status": "qualified"
+    },
+    {
+      "id": "C-EC5-003",
+      "text": "A migration comparison must separate key establishment from digital signatures.",
+      "kind": "retrospective_analysis",
+      "evidence_ids": [
+        "O-EC5-008",
+        "O-EC5-009",
+        "O-EC5-010"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-EC5-002",
+          "locator": "Abstract; KEM definition and security paragraphs"
+        },
+        {
+          "source_id": "S-EC5-003",
+          "locator": "Abstract; ML-DSA paragraph"
+        },
+        {
+          "source_id": "S-EC5-004",
+          "locator": "Abstract; SLH-DSA and SPHINCS+ paragraphs"
+        }
+      ],
+      "reasoning": "The standards have different functions; a signature algorithm cannot simply replace a key-establishment mechanism.",
+      "counterargument": "A high-level presentation can group all these under PQC for introduction.",
+      "limitation": "Protocol integration, parameter choice and implementation review are outside this code demonstration.",
+      "status": "qualified"
+    },
+    {
+      "id": "C-EC5-004",
+      "text": "The PQC-versus-QKD slide should compare functions, authentication and infrastructure assumptions rather than rank either as inherently secure.",
+      "kind": "retrospective_analysis",
+      "evidence_ids": [
+        "O-EC5-003",
+        "O-EC5-011"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-EC5-001",
+          "locator": "slide 5; text runs 1-8"
+        },
+        {
+          "source_id": "S-EC5-005",
+          "locator": "Technical limitations; items 1,2,4"
+        }
+      ],
+      "reasoning": "The distinction is useful but insufficient for whole-system assurance; QKD still needs authenticated origins and engineered components.",
+      "counterargument": "Specialized QKD research may address particular constraints in particular deployments.",
+      "limitation": "No QKD device or channel has been tested; NSA context is identified rather than generalized.",
+      "status": "qualified"
+    },
+    {
+      "id": "C-EC5-005",
+      "text": "QuSecure and Quranium should be treated as differently scoped vendor case studies, without an evidence-backed winner.",
+      "kind": "retrospective_analysis",
+      "evidence_ids": [
+        "O-EC5-005",
+        "O-EC5-006",
+        "O-EC5-013",
+        "O-EC5-014"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-EC5-001",
+          "locator": "slide 9; text runs 1-6"
+        },
+        {
+          "source_id": "S-EC5-001",
+          "locator": "slide 10; text runs 1-4"
+        },
+        {
+          "source_id": "S-EC5-007",
+          "locator": "Dated release body; 2024 award and QuProtect paragraphs"
+        },
+        {
+          "source_id": "S-EC5-008",
+          "locator": "DeQUIP Alliance section"
+        }
+      ],
+      "reasoning": "The supplied deck and vendor sources do not offer comparable independently measured endpoints; a branding category is not certification.",
+      "counterargument": "A vendor may have nonpublic audits, deployment documents or later technical evidence.",
+      "limitation": "No inference of fraud or insecurity; the available evidence is simply insufficient to establish the broad claims.",
+      "status": "qualified"
+    },
+    {
+      "id": "C-EC5-006",
+      "text": "Add claim-level citations and quarantine the Quranium Layer-2 and guarantee statements pending architecture evidence.",
+      "kind": "retrospective_analysis",
+      "evidence_ids": [
+        "O-EC5-006",
+        "O-EC5-007",
+        "O-EC5-014"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-EC5-001",
+          "locator": "slide 10; text runs 1-4"
+        },
+        {
+          "source_id": "S-EC5-001",
+          "locator": "slide 12; text runs 1-5"
+        },
+        {
+          "source_id": "S-EC5-008",
+          "locator": "DeQUIP Alliance section"
+        }
+      ],
+      "reasoning": "The deck lacks a Quranium-specific citation; the current category page does not establish the architecture claim.",
+      "counterargument": "The original author might have relied on an omitted source or a contemporaneous conversation.",
+      "limitation": "Missing citation is an evidence gap, not proof the assertion is false.",
+      "status": "qualified"
+    },
+    {
+      "id": "C-EC5-007",
+      "text": "A synthetic inventory and timing-sensitivity exercise makes the migration question inspectable without pretending to test cryptographic security.",
+      "kind": "retrospective_analysis",
+      "evidence_ids": [
+        "O-EC5-004",
+        "O-EC5-012",
+        "O-EC5-015"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-EC5-001",
+          "locator": "slide 7; text runs 1-8"
+        },
+        {
+          "source_id": "S-EC5-006",
+          "locator": "Two workstreams; introduction"
+        },
+        {
+          "source_id": "S-EC5-009",
+          "locator": "rows; A-001 horizons 5,10,20; all rows"
+        }
+      ],
+      "reasoning": "Inventory and interoperability are distinct migration tasks; a transparent arithmetic exercise addresses planning assumptions only.",
+      "counterargument": "A heuristic can conceal complexity and does not replace real discovery, protocol tests or cost analysis.",
+      "limitation": "The trigger equation is a repository-defined educational rule, not a NIST risk score or quantum arrival prediction.",
+      "status": "qualified"
+    },
+    {
+      "id": "C-EC5-008",
+      "text": "The long-lived synthetic archive remains a planning trigger in two short-horizon scenarios, while unknown algorithms, signatures and a PQC pilot require separate review.",
+      "kind": "retrospective_analysis",
+      "evidence_ids": [
+        "O-EC5-015"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-EC5-009",
+          "locator": "rows; A-001 horizons 5,10,20; all rows"
+        }
+      ],
+      "reasoning": "A-001 has 15 years lifetime plus 3 years migration, so slack is -13,-8,+2 for horizons 5,10,20; noncomparable uses are not assigned a safety label.",
+      "counterargument": "Different retention needs, migration times or scenario horizons can change the result.",
+      "limitation": "Only synthetic arithmetic is established; positive slack is not security or permission to delay.",
+      "status": "qualified"
+    },
+    {
+      "id": "C-EC5-009",
+      "text": "A follow-up should measure compatibility and failure handling in a local, approved test environment after the student understands the evidence audit.",
+      "kind": "proposal",
+      "evidence_ids": [
+        "O-EC5-012"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-EC5-006",
+          "locator": "Two workstreams; introduction"
+        }
+      ],
+      "reasoning": "Interoperability addresses a different evidence gap from source reading and arithmetic.",
+      "counterargument": "The student may prefer source evaluation as the completed contribution and leave implementation outside scope.",
+      "limitation": "Proposed only; no benchmark, deployment or student completion is claimed.",
+      "status": "proposed"
+    }
+  ]
+}
