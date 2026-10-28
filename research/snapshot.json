@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-10-29",
+  "result_type": "synthetic_scenarios",
+  "counts": {
+    "sources": 9,
+    "observations": 15,
+    "claims": 9,
+    "entities": 2,
+    "assessments": 3,
+    "benchmarks": 5,
+    "test_definitions": 46
+  },
+  "artifact_sha256": {
+    "data/synthetic_inventory.json": "31b6277efb2a34a6d2a3776ed0d8561ab766705fcc98b2d559aa4143320f0234",
+    "evidence.json": "e8e410c486f48e61e7f30cdb4639d5b5a7b7a87aa74353f331e99264554a8828",
+    "project.json": "a453db149e878dd99f55fab7f68ca0e48a13339dd288846ae91c9f72059b1f48",
+    "reproduce.py": "334d1d48ea6508be60966a4d049f610059104226a396863777d2dba3ea9e633e",
+    "research.py": "bdcc70d4fda7e5ee8879ffe9e7811025f4e548e91193f49188bec4dd6bed252a",
+    "research/assessments.json": "bf5ad484ba36379d84c126a5f46384f4592550f52e12e2d92ba0eb1b85ab1c6c",
+    "research/benchmarks.json": "7c7a904374cf4494fcd8b1f205e518ce5d7e9601bc8ea3dddf525dc90b99dcb5",
+    "research/entities.json": "b3a7fe9cd3005b995dc337ff565991589199426424758157e51e67e387628f59",
+    "research/protocol.json": "601c0cdaf2c2904f167f8e6aa95334e5cd46b9ab2efd2940d7d053f0fa6042cb",
+    "research/releases.json": "1bae1311b0b17ecf2da53ad471006a82db03b7977f50cf4fd5ce42e5af7cc229",
+    "results/migration_scenarios.csv": "ae06468f677e784bbbfcfbc28ac7587121f4934717ad7321b2aad146bcdfd72d",
+    "results/migration_scenarios.json": "cc7dd7dce45185b0ab939a24f97c85a4ce6dd0d035d251b1bf9ad84cbbe44a90",
+    "scripts/ingest_pptx.py": "a1774b0dadd32785a73522112167a1442a442aed7d75a48ffbd4552005aec939",
+    "scripts/migration_model.py": "5bcc1393a0afd1ad34b095de0c4d164191a8b6f28792ab9ab38d194463555fab",
+    "scripts/validate_project.py": "478520bdb6de7411a6dbde12e7f61acfdb8fad35ddcfa31e0309746e1f9ef593",
+    "sources/original.pptx": "54afad5df9edde276dc3ec89b77cf48078ec6d92a1c3ef79b82b3eb33994c2ca",
+    "sources/slides.json": "8feb7166401b59ef977d214a5e69bf66c806fb78be1ba7688eef300b0aee98e9",
+    "tests/test_project.py": "c13cf407040c42a7ce4ea26d81a360a19809bed9bbf8c88b2b428a620c744311",
+    "tests/test_research.py": "e6dcdd84a8e3be3b244a0a7c9b7333d71122e251f48d218e50222de9210a1d7e"
+  }
+}

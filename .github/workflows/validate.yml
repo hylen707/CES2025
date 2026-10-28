@@ -1,4 +1,4 @@
-name: Validate evidence and synthetic analysis
+name: Research integrity and reproducibility
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
@@ -9,14 +9,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-      - run: python scripts/validate_project.py
-      - run: python -m unittest discover -s tests -v
-      - name: Publish submission readiness finding
-        run: |
-          if python scripts/validate_project.py --submission --json > readiness.json; then
-            echo 'Submission semantic gate passed; human verification remains necessary.' >> "$GITHUB_STEP_SUMMARY"
-          else
-            echo 'Technical draft validated; submission review is incomplete.' >> "$GITHUB_STEP_SUMMARY"
-          fi
-          cat readiness.json >> "$GITHUB_STEP_SUMMARY"
+          python-version: '3.11'
+      - name: Check evidence, research records, generated outputs and tests
+        run: python reproduce.py

@@ -1,58 +1,59 @@
-# CES2025 · Evaluating post-quantum security claims
+# CES2025 · From quantum-security claims to migration evidence
 
-**From a technology overview to a traceable migration argument.**
+**What turns a quantum-resistant claim into a defensible engineering decision?**
 
-The phrase “quantum-resistant” leaves important engineering questions open: which cryptographic function changes, which assumptions support the claim, and what evidence would justify a migration decision? This project investigates those questions through a 12-slide CES2025 presentation, primary standards, vendor case studies, and a reproducible planning model.
+This project develops a 12-slide technology presentation into a company and technology study. It audits PQC and QKD explanations, distinguishes standards from vendor assurance, and makes a narrow migration-planning rule executable under explicit assumptions.
 
-Its central contribution is a chain that a reader can inspect and challenge: a located source statement, a bounded interpretation, a counterargument, and a testable next question. The research connects technical precision to planning decisions while keeping uncertainty visible.
+Its contribution is the connected argument: source statement, supported interpretation, competing explanation, reproducible result and next evidence gate. The research preserves unknown and non-comparable outcomes instead of converting a technology label into a security verdict.
 
-**한국어:** CES2025 발표의 PQC·QKD 설명과 기업 사례를 표준 및 출처와 대조하고, 암호 기능·안전성의 전제·전환 판단을 구분했다. 원문 검토에서 출발해 주장별 논증, 합성 자산 시나리오, 재현 검증으로 이어지는 탐구 과정과 결과를 담았다.
+발표 자료의 개념과 기업 주장을 표준·출처와 대조하고, 암호 기능·구현 안전성·전환 판단을 분리했다. 기업 사례 검토와 합성 자산 시나리오를 하나의 추적 가능한 연구 구조로 연결했다.
 
-## What the investigation established
+[Company brief](research/COMPANY_BRIEF.md) · [Research brief](docs/03-research-brief.md) · [Research workspace](research/README.md)
 
-| Question | Finding | Supporting work |
-| --- | --- | --- |
-| What does a standardized PQC algorithm provide? | Key establishment and digital signatures serve different functions. Naming an algorithm leaves implementation and protocol assurance to be evaluated. | [Technical corrections](docs/04-technical-corrections.md) |
-| Can the two vendors be ranked from the reviewed material? | QuSecure and Quranium have different source coverage and positioning. The reviewed evidence lacks a shared, independently measured endpoint for a performance ranking. | [Vendor evidence](docs/05-vendor-evidence.md) |
-| How do planning assumptions change the result? | Confidentiality lifetime and migration duration change the timing margin. Unknown algorithms, signatures, and a PQC pilot require separate review. | [Method and results](docs/07-method-and-results.md) |
+<!-- research-snapshot:start -->
+| Core sources | Located observations | Claims | Company cases | Technology questions | Method references | Test cases |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 9 | 15 | 9 | 2 | 3 | 5 | 46 |
+<!-- research-snapshot:end -->
 
-The audit records **9 sources, 15 observations, and 9 claims**. Each claim links to precise evidence and states its reasoning, counterargument, limitation, and status. The [argument map](docs/06-argument-map.md) provides a readable overview; [evidence.json](evidence.json) preserves the machine-readable relationships.
+## Findings and their consequence
 
-## How the project developed
+| Finding | Consequence for the company and technology argument |
+| --- | --- |
+| Key establishment, signatures and QKD dependencies serve different functions | Compare a named function and its assumptions; a standardized algorithm alone does not establish system assurance. |
+| The reviewed QuSecure and Quranium cases lack a shared, independently measured endpoint | Retain attributed offerings and evidence gaps. No vendor performance ranking or verified deployment verdict follows. |
+| A synthetic 15-year archive with a 3-year migration duration has **−8 years** of slack under a 10-year horizon and **+2 years** under a 20-year horizon | Planning depends on explicit lifetime, duration and hypothetical horizon inputs. Positive slack does not establish security or justify delay. |
+| Signatures, unknown algorithms and a named PQC pilot fall outside the confidentiality-timing verdict | Preserve function-specific review and inventory gaps instead of treating exclusion as safety. |
 
-1. **Preserve the starting material.** Retain the [original presentation](sources/original.pptx), verify slide order, extract [slide text](sources/slides.json), and record hashes in the [source register](docs/02-source-intake.md).
-2. **Narrow the question.** Separate conceptual explanation, cryptographic function, vendor assurance, and migration planning in the [research brief](docs/03-research-brief.md).
-3. **Audit consequential claims.** Compare selected wording with NIST standards and government technical guidance. Identify where a statement needs qualification or additional evidence.
-4. **Make assumptions executable.** Model five synthetic assets under three hypothetical horizons and retain all 15 scenario results.
-5. **Check the evidence chain.** Validate source integrity, slide locators, observation links, and generated outputs; test boundary cases and invalid inputs.
+The exercise contains **five synthetic assets and fifteen scenario rows**. It measures no cryptographic implementation, live system or vendor product.
 
-## A result that changes with the assumptions
+## The research system
 
-The model defines a planning margin in years:
+| Layer | What it contributes |
+| --- | --- |
+| [Company cases](research/entities.json) | Attributed offerings and commercial/assurance questions without invented financial metrics |
+| [Technology decisions](research/assessments.json) | Evidence stage, bounded action and a falsifiable next gate |
+| [Technical corrections](docs/04-technical-corrections.md) · [vendor memo](docs/05-vendor-evidence.md) | Source-specific qualifications and non-comparability |
+| [Argument ledger](evidence.json) | Located observations, reasoning, counterarguments and limits |
+| [Scenario model](scripts/migration_model.py) | Explicit timing rule; [inputs](data/synthetic_inventory.json), [JSON](results/migration_scenarios.json) and [CSV](results/migration_scenarios.csv) |
+| [Method benchmark](research/BENCHMARKS.md) · [release watch](research/releases.json) | Exact upstream references and dated, untested implementation context |
 
-`slack = hypothetical_quantum_horizon − confidentiality_lifetime − migration_duration`
+The workflow separates inventory/planning from interoperability testing. Source preservation, technical correction, company analysis and scenario sensitivity are completed within the stated scope. A version-specific local fixture remains [proposed work](docs/08-limitations-and-next-study.md). The [research status](research/STATUS.md) and README summary derive from the same records.
 
-For a synthetic RSA archive with a 15-year confidentiality requirement and a 3-year migration duration, the margin is **−8 years** under a 10-year horizon and **+2 years** under a 20-year horizon. Reducing the assumed confidentiality requirement to 5 years also changes the 10-year margin to **+2 years**.
+## Reproduce
 
-These reversals make the dependency explicit. The horizons are hypothetical scenarios, and positive slack does not establish security or justify delaying migration. The model keeps signatures, unknown algorithms, and a named PQC pilot outside its confidentiality-timing verdict. Inspect the [input inventory](data/synthetic_inventory.json), [model](scripts/migration_model.py), and generated [JSON](results/migration_scenarios.json) or [CSV](results/migration_scenarios.csv).
-
-## Reproduce and inspect
-
-Python 3.11+ and the standard library are sufficient. From the repository root:
+Python 3.11+ and the standard library are sufficient:
 
 ```bash
-python scripts/ingest_pptx.py sources/original.pptx /tmp/ces2025-slides.json
-python scripts/migration_model.py --output /tmp/ces2025-scenarios.json
-python scripts/validate_project.py
-python -m unittest discover -s tests -v
+python reproduce.py
 ```
 
-The **28 tests** cover exact source extraction and result reproduction, evidence-link failures, equality and near-zero timing boundaries, invalid inputs, and deliberately excluded cases. See [reproduction details](docs/09-reproducibility.md) and [provenance](ATTRIBUTION.md).
+The command regenerates slide extraction and scenario outputs in temporary files, checks source and artifact hashes, validates research relationships and documentation, then runs all tests. It requires no credentials, network access or cryptographic installation.
 
-## Limits and the next question
+## Open evidence gates
 
-This work evaluates source claims and a synthetic planning rule. It measures no deployed system, cryptographic performance, attack resistance, or vendor product. Source traceability cannot establish a claim's scientific truth, and missing public evidence does not establish that a product is insecure.
+A stronger implementation claim needs a named function, complete version tuple, authentication assumptions, an isolated fixture and reproducible success/negative-control logs. A release notice does not supply those results. Commercial metrics and independently verified deployments remain unestablished in this dataset.
 
-The next technical question is whether a specified implementation interoperates and fails predictably in a controlled local fixture. The [proposed study](docs/08-limitations-and-next-study.md) defines the service, baseline, configuration, controls, and acceptance criteria. It remains proposed work, separate from the completed audit and scenario analysis.
+[Source provenance](docs/02-source-intake.md) · [Method and results](docs/07-method-and-results.md) · [Reproduction details](docs/09-reproducibility.md) · [Provenance record](ATTRIBUTION.md) · [Contributing](CONTRIBUTING.md)
 
-Related investigation: [World-IT-Show](https://github.com/hylen707/World-IT-Show), which examines the evidence needed to move from material properties to device-level claims.
+[Research change record](CHANGELOG.md)
