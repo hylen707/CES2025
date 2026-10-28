@@ -1,0 +1,31 @@
+{
+  "reviewed_on": "2026-10-28",
+  "references": [
+    {
+      "id": "F01",
+      "repository": "trailofbits/publications",
+      "commit_sha": "cb3b192dc060b93221f0edb45c77d44422bbc0f2",
+      "path": "README.md",
+      "blob_sha": "35c0676e6368d44e1697816a14c2021d14d16907",
+      "line_start": 59,
+      "line_end": 62,
+      "url": "https://github.com/trailofbits/publications/blob/cb3b192dc060b93221f0edb45c77d44422bbc0f2/README.md#L59-L62",
+      "practice": "Publication catalog organized by document type, venue and year.",
+      "endorsement": false,
+      "copying": "Format practice only; no upstream code, reports or assets copied."
+    },
+    {
+      "id": "F02",
+      "repository": "mupq/pqm4",
+      "commit_sha": "6ff2be970f6f4592b341d432042063ceacf424a2",
+      "path": "README.md",
+      "blob_sha": "e9faba074b1e7fa4f237a4ead337c2a48bec54e0",
+      "line_start": 13,
+      "line_end": 25,
+      "url": "https://github.com/mupq/pqm4/blob/6ff2be970f6f4592b341d432042063ceacf424a2/README.md#L13-L25",
+      "practice": "Paper-linked experiments with explicit platform and measurement scope.",
+      "endorsement": false,
+      "copying": "Format practice only; no upstream code, reports or assets copied."
+    }
+  ]
+}
