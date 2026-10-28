@@ -30,3 +30,11 @@ For authorized routine editorial changes, update the existing branch directly wi
 Maintain research/entities.json, research/assessments.json and research/protocol.json alongside the core ledger. Keep new release notices separate from implementation test results. Review exact upstream pins and adoption targets when changing research/benchmarks.json.
 
 After meaningful evidence, method or result changes, run python research.py --write and inspect the generated snapshot and README summary. This does not replace a narrative update when the conclusion changes. Run python reproduce.py before publishing. Do not hand-edit generated hashes or turn unknown commercial metrics into unsupported facts.
+
+## CES sector review
+
+Keep the CES root overview publication-led: commercial thesis, engineering synthesis, annotated literature and deployment context. Maintain its reading-room format rather than a generic metric grid. Keep the supplied presentation separate from later-dated research.
+
+Canonical review inputs are dossier/sources.json, forecasts.json, theses.json and format-benchmarks.json. Record access scope and publication status accurately. Public abstracts do not authorize claims of full-report review. Keep adjacent quantum markets and differently defined forecasts separate; never manufacture a consensus market estimate from public headlines.
+
+After changing reviewed records, run python dossier.py --write, then python research.py --write, inspect the narrative and run python reproduce.py. Preserve paper version, selected-page locators and PDF identities; do not redistribute full third-party reports or papers merely because they were consulted.

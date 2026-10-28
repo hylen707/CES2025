@@ -4,15 +4,15 @@
 
 | Item to verify | Current record | Evidence needed before changing it |
 | --- | --- | --- |
-| Original deck authorship | Unverified | Student identifies original/shared/quoted material and its preparation context |
-| Original activity dates | Null | Reliable date/context confirmed by student and supporting record where available |
+| Original deck authorship | Unverified | Contributor identifies original/shared/quoted material and its preparation context |
+| Original activity dates | Null | Reliable date/context confirmed by contributor and supporting record where available |
 | Attendance or presentation | Not claimed | Specific truthful account; supporting record if available |
 | Role and responsibilities | Null | Document the individual's actual role and responsibilities |
 | Hours | Null | Reliable record if used; do not estimate merely to fill a field |
 | Audience, adoption or impact | Null | Specific observable outcome with evidence; no invented counts |
-| 2026 audit/model ownership | Student review pending | Student reruns, explains and makes their own documented corrections |
+| 2026 audit/model ownership | Contributor review pending | Contributor reruns, explains and makes their own documented corrections |
 
-## Reflection prompts for the student’s own writing
+## Technical and contribution review questions
 
 1. Which exact slide or statement did you originally create, and how did you choose its sources?
 2. What did you believe then, and which claim would you now qualify? Explain the evidence in your own words.
@@ -21,4 +21,4 @@
 5. Why are the unknown algorithm, signature updater and PQC pilot not labeled safe by the model?
 6. Which contribution is yours, which was assisted, and which follow-up remains only planned?
 
-These are prompts, not answers to submit. Record a student's review only after it occurs; a checkbox or automated test cannot create understanding. If the student chooses to extend the work, preserve their real changes as new dated commits and keep this preparation history visible.
+These questions define a review procedure. Record a contributor's review only after it occurs; a checkbox or automated test cannot create understanding. If the contributor chooses to extend the work, preserve their real changes as new dated commits and keep this preparation history visible.

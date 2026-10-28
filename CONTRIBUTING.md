@@ -11,7 +11,10 @@ Start from a specific question and identify the evidence that could change the a
 5. Run the research snapshot refresh, inspect its diff, and update the README narrative when a conclusion changes.
 6. Run the complete offline verification before publishing.
 
+    python dossier.py --write
     python research.py --write
     python reproduce.py
 
 The refresh updates generated counts and artifact hashes. It does not establish scientific truth or replace a review of changed assumptions. Record substantive technical work in commits. Method references are pinned in [research/benchmarks.json](research/benchmarks.json); do not copy upstream implementation or branding without an appropriate separate review.
+
+For the CES sector review, record the original publisher, date, access boundary, publication venue or status, and critical interpretation in dossier/sources.json. Update synthesis sources and countercases when strengthening an argument. Keep reported forecasts distinct from observed revenue and retain their category, unit, horizon and method limitations.
