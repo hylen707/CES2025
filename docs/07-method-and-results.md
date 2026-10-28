@@ -2,9 +2,9 @@
 
 ## Design
 
-This experiment was newly prepared on **2026-10-28**. All assets and input values are synthetic, chosen to expose model boundaries. They are not derived from the student's school, an employer, a bank, a vendor or any live infrastructure.
+This experiment was newly prepared on **2026-10-28**. All assets and input values are synthetic, chosen to expose model boundaries. They are not derived from the contributor's school, an employer, a bank, a vendor or any live infrastructure.
 
-The [NCCoE migration project](https://www.nccoe.nist.gov/applied-cryptography/migration-to-pqc) motivates separating discovery/planning from interoperability. The following arithmetic is this repository's own educational planning rule, not a NIST scoring method.
+The [NCCoE migration project](https://www.nccoe.nist.gov/applied-cryptography/migration-to-pqc) motivates separating discovery/planning from interoperability. The arithmetic implements a Mosca-style confidentiality/migration timing relation; see [P02 and the author-source scope](../dossier/04-paper-atlas.md). The equality trigger is this repository's conservative boundary convention. It is not a NIST scoring method or a new empirical discovery.
 
 For an explicitly modeled vulnerable confidentiality use:
 

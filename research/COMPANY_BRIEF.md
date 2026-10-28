@@ -20,3 +20,7 @@ Vendor descriptions can identify research questions. Standards can clarify crypt
 The synthetic timing model contributes a planning sensitivity exercise. Its outputs are not vendor measurements and must not be used to rank these companies.
 
 Trace: [vendor memo](../docs/05-vendor-evidence.md), [core claims](../evidence.json), [technology actions](assessments.json), [proposed interoperability study](../docs/08-limitations-and-next-study.md).
+
+## Sector context
+
+The [commercial thesis](../dossier/01-commercial-thesis.md) and [engineering review](../dossier/03-engineering-evidence.md) place this supporting study in a broader public-source corpus. Market expansion does not independently verify the named companies' revenue, deployments or implementation assurance.
