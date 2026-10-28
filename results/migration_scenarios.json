@@ -1,0 +1,113 @@
+{
+  "model_version": "1.0",
+  "data_origin": "synthetic",
+  "input_sha256": "31b6277efb2a34a6d2a3776ed0d8561ab766705fcc98b2d559aa4143320f0234",
+  "interpretation": "A planning heuristic under hypothetical horizons; not a threat forecast, validated risk score, benchmark or security certification.",
+  "rows": [
+    {
+      "asset_id": "A-001",
+      "horizon_years": 5.0,
+      "state": "planning_trigger",
+      "slack_years": -13.0,
+      "reason": "Trigger when scenario horizon <= confidentiality lifetime + migration duration; equality triggers."
+    },
+    {
+      "asset_id": "A-002",
+      "horizon_years": 5.0,
+      "state": "positive_slack",
+      "slack_years": 2.9000000000000004,
+      "reason": "Trigger when scenario horizon <= confidentiality lifetime + migration duration; equality triggers."
+    },
+    {
+      "asset_id": "A-003",
+      "horizon_years": 5.0,
+      "state": "signature_review",
+      "slack_years": null,
+      "reason": "Confidentiality timing model does not assess signature forgery or update trust."
+    },
+    {
+      "asset_id": "A-004",
+      "horizon_years": 5.0,
+      "state": "inventory_gap",
+      "slack_years": null,
+      "reason": "Algorithm is unknown; do not infer protection."
+    },
+    {
+      "asset_id": "A-005",
+      "horizon_years": 5.0,
+      "state": "algorithm_review",
+      "slack_years": null,
+      "reason": "Outside the deliberately narrow vulnerable-algorithm set; not a safe finding."
+    },
+    {
+      "asset_id": "A-001",
+      "horizon_years": 10.0,
+      "state": "planning_trigger",
+      "slack_years": -8.0,
+      "reason": "Trigger when scenario horizon <= confidentiality lifetime + migration duration; equality triggers."
+    },
+    {
+      "asset_id": "A-002",
+      "horizon_years": 10.0,
+      "state": "positive_slack",
+      "slack_years": 7.9,
+      "reason": "Trigger when scenario horizon <= confidentiality lifetime + migration duration; equality triggers."
+    },
+    {
+      "asset_id": "A-003",
+      "horizon_years": 10.0,
+      "state": "signature_review",
+      "slack_years": null,
+      "reason": "Confidentiality timing model does not assess signature forgery or update trust."
+    },
+    {
+      "asset_id": "A-004",
+      "horizon_years": 10.0,
+      "state": "inventory_gap",
+      "slack_years": null,
+      "reason": "Algorithm is unknown; do not infer protection."
+    },
+    {
+      "asset_id": "A-005",
+      "horizon_years": 10.0,
+      "state": "algorithm_review",
+      "slack_years": null,
+      "reason": "Outside the deliberately narrow vulnerable-algorithm set; not a safe finding."
+    },
+    {
+      "asset_id": "A-001",
+      "horizon_years": 20.0,
+      "state": "positive_slack",
+      "slack_years": 2.0,
+      "reason": "Trigger when scenario horizon <= confidentiality lifetime + migration duration; equality triggers."
+    },
+    {
+      "asset_id": "A-002",
+      "horizon_years": 20.0,
+      "state": "positive_slack",
+      "slack_years": 17.9,
+      "reason": "Trigger when scenario horizon <= confidentiality lifetime + migration duration; equality triggers."
+    },
+    {
+      "asset_id": "A-003",
+      "horizon_years": 20.0,
+      "state": "signature_review",
+      "slack_years": null,
+      "reason": "Confidentiality timing model does not assess signature forgery or update trust."
+    },
+    {
+      "asset_id": "A-004",
+      "horizon_years": 20.0,
+      "state": "inventory_gap",
+      "slack_years": null,
+      "reason": "Algorithm is unknown; do not infer protection."
+    },
+    {
+      "asset_id": "A-005",
+      "horizon_years": 20.0,
+      "state": "algorithm_review",
+      "slack_years": null,
+      "reason": "Outside the deliberately narrow vulnerable-algorithm set; not a safe finding."
+    }
+  ]
+}
