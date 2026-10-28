@@ -8,3 +8,7 @@
 - **Student-facing use:** student ownership, factual personal details and independent understanding remain pending. Application writing must remain truthful and student-authored under applicable school rules. See the application evidence summary for personal-contribution checks.
 
 The supplied source retains the rights and attribution of its original owners. No blanket license is granted over third-party material.
+
+## Research-method extension · 2026-10-29
+
+A method-comparison phase added versioned benchmark references, attributed company cases, technology actions, evidence gates, and an offline research verification workflow. Original source bytes, contribution status, and the distinction between simulated results and performed experiments remain unchanged.

@@ -1,8 +1,8 @@
-# Application evidence summary / 지원 자료 요약
+# Research evidence summary / 연구 근거 요약
 
 **Status:** neutral evidence map for student/adviser review. Not an applicant-authored essay or a verified activity description.
 
-## Concise English portfolio synopsis
+## Concise research synopsis
 
 CES2025 source material on post-quantum cryptography is organized into a 12-slide evidence map. A later audit distinguishes source assertions from supported technical interpretation and vendor marketing. A reproducible synthetic inventory exercise explores migration timing under explicit assumptions while preserving unknown and out-of-scope cases. The repository exposes the reasoning, counterarguments, limitations and reproduction steps.
 

@@ -1,4 +1,4 @@
-# Student verification and reflection
+# Contribution verification and technical review
 
 **Current state: pending.** The technical package can be reviewed now; personal claims cannot be inferred from the repository.
 
