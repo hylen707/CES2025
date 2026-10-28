@@ -1,0 +1,12 @@
+{
+  "data_origin": "synthetic",
+  "created_for": "2026-10-28 retrospective EC5 educational analysis",
+  "not_derived_from": "No organization, bank, vendor or live infrastructure was inventoried.",
+  "assets": [
+    {"id": "A-001", "name": "Fictional long-lived archive", "algorithm": "RSA-2048", "use": "key_transport", "confidentiality_years": 15, "migration_years": 3},
+    {"id": "A-002", "name": "Fictional short-lived web session", "algorithm": "ECDH-P256", "use": "key_agreement", "confidentiality_years": 0.1, "migration_years": 2},
+    {"id": "A-003", "name": "Fictional software updater", "algorithm": "ECDSA-P256", "use": "signature", "confidentiality_years": 0, "migration_years": 4},
+    {"id": "A-004", "name": "Fictional undocumented service", "algorithm": null, "use": "unknown", "confidentiality_years": 10, "migration_years": 3},
+    {"id": "A-005", "name": "Fictional PQC pilot", "algorithm": "ML-KEM-768", "use": "key_encapsulation", "confidentiality_years": 10, "migration_years": 2}
+  ]
+}
