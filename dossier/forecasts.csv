@@ -1,0 +1,5 @@
+id,source_id,publisher,category,scope_id,base_year,base_value_usd_billion,forecast_year,forecast_value_usd_billion,quoted_cagr_pct,currency,unit
+FC-MNM,M04,MarketsandMarkets,pqc,mnm-pqc-solutions-services-2026,2026,0.6,2031,3.8,44.5,USD,billion
+FC-GVR,M05,Grand View Research,pqc,gvr-pqc-type-solution-services-2026,2026,2.2,2033,20.5,37.8,USD,billion
+FC-JUN,M06,Juniper Research,pqc,juniper-pqc-2026-2035,2026,1.2,2035,13.0,30.0,USD,billion
+FC-FBI,M07,Fortune Business Insights,adjacent_quantum_cryptography,fbi-quantum-cryptography-qkd-qrng-2026,2026,0.3455,2034,2.2632,26.5,USD,billion
