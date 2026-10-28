@@ -1,25 +1,11 @@
-# Research workspace
+# Supporting evidence workbench
 
-| Route | Inspectable artifact |
-| --- | --- |
-| Current coverage and actions | [Research status](STATUS.md) |
-| Company proposition and evidence gaps | [Company brief](COMPANY_BRIEF.md) · [typed cases](entities.json) |
-| Technology decisions and next gates | [Assessments](assessments.json) |
-| External method comparison | [Benchmark adoption](BENCHMARKS.md) · [immutable source register](benchmarks.json) |
-| Evidence classes and comparison rules | [Protocol](protocol.json) |
-| Dated release context | [Release watch](releases.json) |
-| Technical and contribution review | [Review record](../docs/review/CONTRIBUTION_REVIEW.md) |
-| Design rationale | [Research decisions](DECISIONS.md) |
-| Reproduction inputs and hashes | [Snapshot](snapshot.json) |
+The main research route begins in the [CES reading room](../dossier/README.md), which connects the market thesis, literature review and deployment context. This workbench preserves the narrower source audit, company cases and synthetic model behind that review.
 
-The core evidence ledger remains the source for technical claims. Method references and release notices are separate research context; they are not added to the core claim-source count or treated as experiments.
+Inspect the [company brief](COMPANY_BRIEF.md), [attributed cases](entities.json), [technology actions](assessments.json) and [source-role protocol](protocol.json). The [research status](STATUS.md) shares the current reading-room coverage summary, while [snapshot.json](snapshot.json) retains separate original-audit counts and artifact hashes.
 
-Run the full offline verification from the repository root:
+Method references in [BENCHMARKS.md](BENCHMARKS.md) and [benchmarks.json](benchmarks.json) support the original evidence workflow. Publication-format references are tracked separately in [the dossier](../dossier/FORMAT.md). The [release record](releases.json) remains contextual and does not assert implementation testing.
+
+Use [research design decisions](DECISIONS.md) and [contribution review](../docs/review/CONTRIBUTION_REVIEW.md) for detailed scope. Run the integrated offline check from the root:
 
     python reproduce.py
-
-After reviewing changed research inputs, refresh the generated status and README summary:
-
-    python research.py --write
-
-Review narrative conclusions separately. The refresh synchronizes metadata and hashes; it does not write the scientific interpretation.

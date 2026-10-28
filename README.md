@@ -1,59 +1,56 @@
-# CES2025 · From quantum-security claims to migration evidence
+# CES2025 Research Review
 
-**What turns a quantum-resistant claim into a defensible engineering decision?**
+## Post-quantum security: the migration market and the engineering beneath it
 
-This project develops a 12-slide technology presentation into a company and technology study. It audits PQC and QKD explanations, distinguishes standards from vendor assurance, and makes a narrow migration-planning rule executable under explicit assumptions.
+**Research cut-off: 28 October 2026.** A sector brief, annotated literature review and reproducible evidence desk.
 
-Its contribution is the connected argument: source statement, supported interpretation, competing explanation, reproducible result and next evidence gate. The research preserves unknown and non-comparable outcomes instead of converting a technology label into a security verdict.
+The central assessment is that PQC commercialization should be examined through the work buyers must complete: discover cryptographic dependencies, plan migration, integrate compatible systems, and establish assurance. Algorithm availability is one input. The commercial value and engineering burden depend on what changes around it.
 
-발표 자료의 개념과 기업 주장을 표준·출처와 대조하고, 암호 기능·구현 안전성·전환 판단을 분리했다. 기업 사례 검토와 합성 자산 시나리오를 하나의 추적 가능한 연구 구조로 연결했다.
+This is a synthesis to test against evidence. Native platform support can absorb some work into existing products, public market estimates have unresolved scope differences, and a successful experiment does not establish a repeatable enterprise rollout.
 
-[Company brief](research/COMPANY_BRIEF.md) · [Research brief](docs/03-research-brief.md) · [Research workspace](research/README.md)
+CES2025 자료를 출발점으로 양자내성 보안을 하나의 신기술 소개가 아니라 시장·구매 과제·논문·배포 조건이 연결되는 연구 주제로 확장했다. 시장 전망의 범위와 실제 도입 증거를 구분하고, 논문 결과가 적용되는 조건과 남는 불확실성을 분석한다.
 
 <!-- research-snapshot:start -->
-| Core sources | Located observations | Claims | Company cases | Technology questions | Method references | Test cases |
-| ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 9 | 15 | 9 | 2 | 3 | 5 | 46 |
+**Evidence desk** · 37 catalogued records: 15 papers/technical notes, 8 market/analyst records, and 14 standards, policy or deployment records.
+
+Paper access: 11 selected full-PDF reviews; 4 records with explicitly limited access.
 <!-- research-snapshot:end -->
 
-## Findings and their consequence
+### The commercial question
 
-| Finding | Consequence for the company and technology argument |
-| --- | --- |
-| Key establishment, signatures and QKD dependencies serve different functions | Compare a named function and its assumptions; a standardized algorithm alone does not establish system assurance. |
-| The reviewed QuSecure and Quranium cases lack a shared, independently measured endpoint | Retain attributed offerings and evidence gaps. No vendor performance ranking or verified deployment verdict follows. |
-| A synthetic 15-year archive with a 3-year migration duration has **−8 years** of slack under a 10-year horizon and **+2 years** under a 20-year horizon | Planning depends on explicit lifetime, duration and hypothetical horizon inputs. Positive slack does not establish security or justify delay. |
-| Signatures, unknown algorithms and a named PQC pilot fall outside the confidentiality-timing verdict | Preserve function-specific review and inventory gaps instead of treating exclusion as safety. |
+Published PQC forecasts point to expansion, but their reported categories and horizons do not reconcile into a defensible consensus market size. The review keeps each estimate attached to its publisher, definition and access limitations. Physical quantum cryptography and the broader quantum-technology economy remain separate categories.
 
-The exercise contains **five synthetic assets and fifteen scenario rows**. It measures no cryptographic implementation, live system or vendor product.
+The more useful commercial question is where a buyer has a funded, non-duplicated task and what evidence a supplier must provide to complete it. The [market thesis](dossier/01-commercial-thesis.md) develops that question without assigning unsupported revenue or market share to the two companies in the original presentation.
 
-## The research system
+### The engineering question
 
-| Layer | What it contributes |
-| --- | --- |
-| [Company cases](research/entities.json) | Attributed offerings and commercial/assurance questions without invented financial metrics |
-| [Technology decisions](research/assessments.json) | Evidence stage, bounded action and a falsifiable next gate |
-| [Technical corrections](docs/04-technical-corrections.md) · [vendor memo](docs/05-vendor-evidence.md) | Source-specific qualifications and non-comparability |
-| [Argument ledger](evidence.json) | Located observations, reasoning, counterarguments and limits |
-| [Scenario model](scripts/migration_model.py) | Explicit timing rule; [inputs](data/synthetic_inventory.json), [JSON](results/migration_scenarios.json) and [CSV](results/migration_scenarios.csv) |
-| [Method benchmark](research/BENCHMARKS.md) · [release watch](research/releases.json) | Exact upstream references and dated, untested implementation context |
+The paper collection connects theoretical threats, conditional resource estimates, primitive design, hybrid protocols, network experiments, embedded constraints and implementation attacks. These bodies of evidence answer different questions. A fast historical candidate is not necessarily a sound current choice; a correctness proof and a complete deployment-security argument also have different scopes.
 
-The workflow separates inventory/planning from interoperability testing. Source preservation, technical correction, company analysis and scenario sensitivity are completed within the stated scope. A version-specific local fixture remains [proposed work](docs/08-limitations-and-next-study.md). The [research status](research/STATUS.md) and README summary derive from the same records.
+The [engineering review](dossier/03-engineering-evidence.md) explains those connections. The [paper atlas](dossier/04-paper-atlas.md) identifies what each reviewed record supports and where the review stops.
 
-## Reproduce
+### Read the review
 
-Python 3.11+ and the standard library are sufficient:
+1. [Commercial thesis and buyer work](dossier/01-commercial-thesis.md) — market boundaries, value chain and commercialization questions.
+2. [Analyst desk](dossier/02-analyst-desk.md) — source-by-source critique and access scope.
+3. [Engineering evidence](dossier/03-engineering-evidence.md) — assumptions, protocols, performance and assurance.
+4. [Paper atlas](dossier/04-paper-atlas.md) — annotated papers and technical notes.
+5. [Standards and deployment record](dossier/05-deployment-record.md) — guidance, official functions, experiments and provider accounts.
+6. [Synthesis and research agenda](dossier/06-synthesis-and-agenda.md) — propositions, countercases and decisive next evidence.
+
+The [review method](dossier/METHOD.md), [source registry](dossier/sources.json), [forecast data](dossier/forecasts.json) and [bibliography](dossier/references.bib) make the reading trail inspectable. The format draws on a publication catalog and paper-linked experimental documentation; [format references](dossier/FORMAT.md) record the exact upstream versions.
+
+### Evidence and access
+
+Source coverage is a scoping review rather than an exhaustive systematic review. Public summaries are distinguished from selected full-PDF passages. Licensed report bodies are not represented as reviewed. Provider descriptions and controlled experiments retain their own denominators and scope.
+
+The supplied [12-slide presentation](sources/original.pptx) remains unchanged. Later-publication material is dated as later research. The original [claim audit](evidence.json), [company cases](research/COMPANY_BRIEF.md) and [synthetic planning exercise](docs/07-method-and-results.md) remain available as supporting studies.
+
+### Reproduce or extend
 
 ```bash
 python reproduce.py
 ```
 
-The command regenerates slide extraction and scenario outputs in temporary files, checks source and artifact hashes, validates research relationships and documentation, then runs all tests. It requires no credentials, network access or cryptographic installation.
+The offline command checks the original source, synthetic results, literature records, access boundaries, forecast arithmetic, generated review files and tests. To refresh reviewed source records, run `python dossier.py --write`, then `python research.py --write` and inspect the changed interpretation.
 
-## Open evidence gates
-
-A stronger implementation claim needs a named function, complete version tuple, authentication assumptions, an isolated fixture and reproducible success/negative-control logs. A release notice does not supply those results. Commercial metrics and independently verified deployments remain unestablished in this dataset.
-
-[Source provenance](docs/02-source-intake.md) · [Method and results](docs/07-method-and-results.md) · [Reproduction details](docs/09-reproducibility.md) · [Provenance record](ATTRIBUTION.md) · [Contributing](CONTRIBUTING.md)
-
-[Research change record](CHANGELOG.md)
+[Contribution guide](CONTRIBUTING.md) · [Change record](CHANGELOG.md) · [Provenance](ATTRIBUTION.md)

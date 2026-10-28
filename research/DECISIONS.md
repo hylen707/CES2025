@@ -17,3 +17,7 @@ The benchmark register pins the inspected upstream commit, file, line range, blo
 The complete offline verification checks original source integrity, regenerated outputs, research references, artifact hashes, documentation links and tests. Generated README counts and the research status derive from the same records. A changed hash requires deliberate review and refresh; it does not by itself imply a scientific change.
 
 The existing detailed provenance records remain intact. Technical verification does not authenticate personal contribution or turn a proposed experiment into completed work.
+
+## Publication-led sector review
+
+The [dossier format](../dossier/FORMAT.md) adds a separate publication-catalog and paper-linked experiment pattern. Its source cards, market boundaries and synthesis sit above the supporting evidence workbench; the original method references remain intact.

@@ -27,3 +27,7 @@ Inventory analysis remains separate from interoperability testing. A release not
 ## Implementation inspection
 
 [OpenBB / OpenBQ implementation](https://github.com/openbq-org/OpenBB/blob/7df7d0c5592bf25be88e87e130a05c71e243d2d8/openbb_platform/core/openbb_core/provider/abstract/fetcher.py#L35-L56), [Thoughtworks Build Your Own Radar implementation](https://github.com/thoughtworks/build-your-own-radar/blob/3379de7db36ce86af7b2607429be0b5f888c8120/src/util/factory.js#L40-L53), [MLCommons MLPerf Inference implementation](https://github.com/mlcommons/inference/blob/3fbc329939999c13d0a7b5e67fb2092287e06047/loadgen/test_settings.h#L109-L120), [Open Quantum Safe oqs-provider implementation](https://github.com/open-quantum-safe/oqs-provider/blob/c3ad7d41e1b40ad9166e575533589cf2c6d1ffa8/.github/workflows/linux.yml#L43-L74). These pinned files expose adapter, input-validation, scenario-setting or version-matrix boundaries. They informed original local checks; no upstream code was copied or executed.
+
+## Publication-led sector review
+
+The [dossier format](../dossier/FORMAT.md) adds a separate publication-catalog and paper-linked experiment pattern. Its source cards, market boundaries and synthesis sit above the supporting evidence workbench; the original method references remain intact.
