@@ -24,3 +24,7 @@ Compare regenerated JSON values with `sources/slides.json` and `results/migratio
 A passing result does not authorize replacing the student’s own application writing. A failing submission check is a visible readiness finding, not an unhandled software error.
 
 For any non-null personal field, `personal_field_evidence` must link located observations from a read `student_record` source. Setting `student_verification` to `verified` additionally requires `verification_evidence_ids` from that source category. A technical standard or generated result cannot attest a student’s contribution. These records must be truthful and privacy reviewed; automated source-type checks cannot authenticate a person.
+
+## Integrated research workspace
+
+The [company brief](../research/COMPANY_BRIEF.md), [technology decisions](../research/assessments.json), and [method adoption record](../research/BENCHMARKS.md) extend the source audit. Release notices remain separate from fixture results. The complete offline entry point is `python reproduce.py` from the repository root; `python research.py --write` refreshes the reviewed research snapshot and README summary.

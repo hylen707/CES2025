@@ -23,3 +23,7 @@ Introductory presentations can identify an important security problem while leav
 | Exclusions | No forecast of a cryptanalytically relevant quantum computer; no production risk rating or cryptographic performance measurement |
 
 The technical analysis is retrospective. The student must independently explain, test and correct it before claiming any part as their own work.
+
+## Integrated research workspace
+
+The [company brief](../research/COMPANY_BRIEF.md), [technology decisions](../research/assessments.json), and [method adoption record](../research/BENCHMARKS.md) extend the source audit. Release notices remain separate from fixture results. The complete offline entry point is `python reproduce.py` from the repository root; `python research.py --write` refreshes the reviewed research snapshot and README summary.
