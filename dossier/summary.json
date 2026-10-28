@@ -1,0 +1,26 @@
+{
+  "reviewed_on": "2026-10-28",
+  "sources": 37,
+  "by_kind": {
+    "market_analysis": 8,
+    "paper": 15,
+    "policy_or_deployment": 11,
+    "standard": 3
+  },
+  "by_access": {
+    "abstract_only": 4,
+    "author_article_and_metadata": 1,
+    "full_pdf_selected_sections": 13,
+    "public_article": 10,
+    "public_summary": 6,
+    "standard_abstract": 3
+  },
+  "paper_pdf_reviews": 11,
+  "artifact_sha256": {
+    "dossier/sources.json": "b312be995de7e9ed793f0fc2b375050c7c227070e738aa06bc10be3a62392bab",
+    "dossier/forecasts.json": "87eac69e0e83e99f2c46fbcc00b669c818f649b984778842dae7cecd79088c13",
+    "dossier/theses.json": "69303921ac359ece736859af4931284a08d7d1fbb16053c2130f24d98af3a64f",
+    "dossier/format-benchmarks.json": "924775d68327e7ca8f82399922ead8244391920f974c57333ca15be813a68a31",
+    "dossier.py": "e7bde1a5e55916846771851e1f002633fd7c90520004a7f5d0d1c675dccf8309"
+  }
+}
