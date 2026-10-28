@@ -97,13 +97,13 @@ class ResearchContractTests(unittest.TestCase):
 
     def test_readme_summary_cannot_disagree_with_records(self):
         path = self.root / "README.md"
-        content = path.read_text().replace("| Core sources |", "| Wrong sources |")
+        content = path.read_text().replace("**Evidence desk**", "**Wrong desk**")
         path.write_text(content)
         self.assertTrue(any("README research summary" in e for e in research.check_outputs(self.root)))
 
     def test_refresh_restores_generated_summary(self):
         path = self.root / "README.md"
-        path.write_text(path.read_text().replace("| Core sources |", "| Wrong sources |"))
+        path.write_text(path.read_text().replace("**Evidence desk**", "**Wrong desk**"))
         research.refresh(self.root)
         self.assertEqual(research.check_outputs(self.root), [])
 

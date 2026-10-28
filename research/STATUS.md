@@ -1,12 +1,12 @@
 # Research status
 
-Evidence review: **2026-10-29**.
+Evidence review: **2026-10-28**.
 Generated from versioned research records. Counts describe this repository, not external market coverage.
 
 <!-- research-snapshot:start -->
-| Core sources | Located observations | Claims | Company cases | Technology questions | Method references | Test cases |
-| ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 9 | 15 | 9 | 2 | 3 | 5 | 46 |
+**Evidence desk** · 37 catalogued records: 15 papers/technical notes, 8 market/analyst records, and 14 standards, policy or deployment records.
+
+Paper access: 11 selected full-PDF reviews; 4 records with explicitly limited access.
 <!-- research-snapshot:end -->
 
 ## Company questions

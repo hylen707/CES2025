@@ -33,6 +33,7 @@ def main():
                 raise ValueError("Generated scenario CSV differs")
     else:
         raise ValueError("Unsupported research project")
+    run("dossier.py", "--check")
     run("research.py", "--check")
     run("-m", "unittest", "discover", "-s", "tests", "-v")
     print("PASS: complete offline research verification")

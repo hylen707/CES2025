@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_on": "2026-10-29",
+  "reviewed_on": "2026-10-28",
   "result_type": "synthetic_scenarios",
   "source_roles": {
     "S-EC5-001": "supplied_slides",
@@ -35,6 +35,25 @@
     "scripts/ingest_pptx.py",
     "tests/test_project.py",
     "sources/original.pptx",
-    "sources/slides.json"
+    "sources/slides.json",
+    "dossier.py",
+    "tests/test_dossier.py",
+    "dossier/01-commercial-thesis.md",
+    "dossier/02-analyst-desk.md",
+    "dossier/03-engineering-evidence.md",
+    "dossier/04-paper-atlas.md",
+    "dossier/05-deployment-record.md",
+    "dossier/06-synthesis-and-agenda.md",
+    "dossier/FORMAT.md",
+    "dossier/METHOD.md",
+    "dossier/README.md",
+    "dossier/forecasts.csv",
+    "dossier/forecasts.json",
+    "dossier/format-benchmarks.json",
+    "dossier/market-checks.json",
+    "dossier/references.bib",
+    "dossier/sources.json",
+    "dossier/summary.json",
+    "dossier/theses.json"
   ]
 }

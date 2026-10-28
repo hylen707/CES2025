@@ -1,7 +1,14 @@
 {
   "schema_version": "1.0",
-  "reviewed_on": "2026-10-29",
+  "reviewed_on": "2026-10-28",
   "result_type": "synthetic_scenarios",
+  "dossier_counts": {
+    "sources": 37,
+    "papers": 15,
+    "market": 8,
+    "context": 14,
+    "paper_pdf_reviews": 11
+  },
   "counts": {
     "sources": 9,
     "observations": 15,
@@ -9,18 +16,36 @@
     "entities": 2,
     "assessments": 3,
     "benchmarks": 5,
-    "test_definitions": 46
+    "test_definitions": 63
   },
   "artifact_sha256": {
     "data/synthetic_inventory.json": "31b6277efb2a34a6d2a3776ed0d8561ab766705fcc98b2d559aa4143320f0234",
+    "dossier.py": "e7bde1a5e55916846771851e1f002633fd7c90520004a7f5d0d1c675dccf8309",
+    "dossier/01-commercial-thesis.md": "df2fbfcaa53e98115811f9d3e8a63ae82db8d492ef636ad8eb663e3928b5d676",
+    "dossier/02-analyst-desk.md": "935d88b7edc126d789789e349356d8f0e52c73a0a0166ece0a26a19ea8898236",
+    "dossier/03-engineering-evidence.md": "d1cd11b247cdfb31e0b52b26bea040ff43d3f7b50455fed0b111e5b72fbeb3c1",
+    "dossier/04-paper-atlas.md": "07c2d5b87bc5e26ceabceca5e7dc77936bfbbbba49bd6da55eefa12020be0678",
+    "dossier/05-deployment-record.md": "dddb6f02d050265aee71e4a7ab430e69763f321d1019cfc0006e7c13dca66c4d",
+    "dossier/06-synthesis-and-agenda.md": "1db65f9e277e6e0839d539f71ae851652d676403a04e17ef806436cf8a9a9048",
+    "dossier/FORMAT.md": "f9fb8951b133b83ee624bd78a5e0f2eb9e95c9bd831d335f0c5ba10edb597a32",
+    "dossier/METHOD.md": "81e57c37a20deedf2dceb2ebfdd4c5ac00a055a9daf8696a2b502a48878ae2ae",
+    "dossier/README.md": "84f2b816972591cc751bad25e1b9b9b1529146ccfc28c4872758bc7d580a478e",
+    "dossier/forecasts.csv": "2557bfa682225ab50f7ef6b6dd122f62dc10fc38bdf7ca9d23eab3e0407a32c9",
+    "dossier/forecasts.json": "87eac69e0e83e99f2c46fbcc00b669c818f649b984778842dae7cecd79088c13",
+    "dossier/format-benchmarks.json": "924775d68327e7ca8f82399922ead8244391920f974c57333ca15be813a68a31",
+    "dossier/market-checks.json": "aa320aca6defc269280cda5effd3dace2e158778f5144b506957905f526dec2a",
+    "dossier/references.bib": "cd3266cb483c2c4fd142007aa8625ad62a5a17b52234175e96aa4058fae29d46",
+    "dossier/sources.json": "b312be995de7e9ed793f0fc2b375050c7c227070e738aa06bc10be3a62392bab",
+    "dossier/summary.json": "c5d6c8c826a3b86521a1e2e49ded677214960740cb8513bdb79ba0964af94871",
+    "dossier/theses.json": "69303921ac359ece736859af4931284a08d7d1fbb16053c2130f24d98af3a64f",
     "evidence.json": "e8e410c486f48e61e7f30cdb4639d5b5a7b7a87aa74353f331e99264554a8828",
     "project.json": "a453db149e878dd99f55fab7f68ca0e48a13339dd288846ae91c9f72059b1f48",
-    "reproduce.py": "334d1d48ea6508be60966a4d049f610059104226a396863777d2dba3ea9e633e",
-    "research.py": "bdcc70d4fda7e5ee8879ffe9e7811025f4e548e91193f49188bec4dd6bed252a",
+    "reproduce.py": "4a33962e92f82e78ebb1d03a75918bcf33c204dfdb0e6d6fabb7b59883b951fd",
+    "research.py": "fcaa2dce5763a56c8ffbbedf7b3a8695be0f16163c0125c04996c89b561f7b6f",
     "research/assessments.json": "bf5ad484ba36379d84c126a5f46384f4592550f52e12e2d92ba0eb1b85ab1c6c",
     "research/benchmarks.json": "7c7a904374cf4494fcd8b1f205e518ce5d7e9601bc8ea3dddf525dc90b99dcb5",
     "research/entities.json": "b3a7fe9cd3005b995dc337ff565991589199426424758157e51e67e387628f59",
-    "research/protocol.json": "601c0cdaf2c2904f167f8e6aa95334e5cd46b9ab2efd2940d7d053f0fa6042cb",
+    "research/protocol.json": "1a40146153d5cc95d00a32f743c4d78988f9691c4eae3f07252ff97c4e13121e",
     "research/releases.json": "1bae1311b0b17ecf2da53ad471006a82db03b7977f50cf4fd5ce42e5af7cc229",
     "results/migration_scenarios.csv": "ae06468f677e784bbbfcfbc28ac7587121f4934717ad7321b2aad146bcdfd72d",
     "results/migration_scenarios.json": "cc7dd7dce45185b0ab939a24f97c85a4ce6dd0d035d251b1bf9ad84cbbe44a90",
@@ -29,7 +54,8 @@
     "scripts/validate_project.py": "478520bdb6de7411a6dbde12e7f61acfdb8fad35ddcfa31e0309746e1f9ef593",
     "sources/original.pptx": "54afad5df9edde276dc3ec89b77cf48078ec6d92a1c3ef79b82b3eb33994c2ca",
     "sources/slides.json": "8feb7166401b59ef977d214a5e69bf66c806fb78be1ba7688eef300b0aee98e9",
+    "tests/test_dossier.py": "ae9caf33cb963f40422a322b6bd6e347567a8cf3690bd2f4b2829f7343f6a4e8",
     "tests/test_project.py": "c13cf407040c42a7ce4ea26d81a360a19809bed9bbf8c88b2b428a620c744311",
-    "tests/test_research.py": "e6dcdd84a8e3be3b244a0a7c9b7333d71122e251f48d218e50222de9210a1d7e"
+    "tests/test_research.py": "1431eee91c3cab46b7473fd2db9826fc35564cd0e815cdea378068767983848c"
   }
 }

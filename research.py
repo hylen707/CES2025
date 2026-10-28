@@ -201,10 +201,16 @@ def validate(root=ROOT):
 def snapshot(root=ROOT):
     evidence = read(root, "evidence.json")
     protocol = read(root, "research/protocol.json")
+    corpus = read(root, "dossier/sources.json")["sources"]
     tests = sum(isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)) and node.name.startswith("test_")
                 for path in (root / "tests").glob("test_*.py") for node in ast.walk(ast.parse(path.read_text())))
     return {"schema_version": "1.0", "reviewed_on": protocol["reviewed_on"],
             "result_type": protocol["result_type"],
+            "dossier_counts": {"sources": len(corpus),
+                               "papers": sum(item["kind"] == "paper" for item in corpus),
+                               "market": sum(item["kind"] == "market_analysis" for item in corpus),
+                               "context": sum(item["kind"] in {"policy_or_deployment", "standard"} for item in corpus),
+                               "paper_pdf_reviews": sum(item["kind"] == "paper" and "pdf" in item for item in corpus)},
             "counts": {"sources": len(evidence["sources"]), "observations": len(evidence["observations"]),
                        "claims": len(evidence["claims"]),
                        "entities": len(read(root, "research/entities.json")["entities"]),
@@ -215,11 +221,13 @@ def snapshot(root=ROOT):
 
 
 def overview(data):
-    c = data["counts"]
-    return "\n".join([START, "| Core sources | Located observations | Claims | Company cases | Technology questions | Method references | Test cases |",
-                      "| ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
-                      "| {sources} | {observations} | {claims} | {entities} | {assessments} | {benchmarks} | {test_definitions} |".format(**c),
-                      END])
+    c = data["dossier_counts"]
+    limited = c["papers"] - c["paper_pdf_reviews"]
+    return "\n".join([START,
+        "**Evidence desk** · {sources} catalogued records: {papers} papers/technical notes, {market} market/analyst records, and {context} standards, policy or deployment records.".format(**c),
+        "",
+        "Paper access: {paper_pdf_reviews} selected full-PDF reviews; {limited} records with explicitly limited access.".format(limited=limited, **c),
+        END])
 
 
 def status(root, data):
