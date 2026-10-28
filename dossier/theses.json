@@ -1,0 +1,50 @@
+{
+  "reviewed_on": "2026-10-28",
+  "theses": [
+    {
+      "id": "TH01",
+      "kind": "synthesis_inference",
+      "proposition": "Near-term commercial work is better analyzed as migration, integration and assurance than as a single algorithm purchase.",
+      "source_ids": ["M01", "M03", "D01", "D02", "D03", "D08"],
+      "reasoning": "Guidance and implementation cases identify multiple organizational and technical work packages.",
+      "countercase": "Platform vendors may bundle much of the required capability into existing products.",
+      "next_evidence": "Non-duplicated procurement records, budget allocation, renewal terms and implementation outcomes."
+    },
+    {
+      "id": "TH02",
+      "kind": "synthesis_inference",
+      "proposition": "Published market headlines do not establish a reconciled PQC addressable market.",
+      "source_ids": ["M02", "M04", "M05", "M06", "M07"],
+      "reasoning": "Market boundaries, time horizons and disclosed methods differ; adjacent quantum categories add further ambiguity.",
+      "countercase": "Detailed underlying reports could resolve part of the apparent difference.",
+      "next_evidence": "A shared product taxonomy, revenue-recognition boundary and transparent forecast-method reconciliation."
+    },
+    {
+      "id": "TH03",
+      "kind": "synthesis_inference",
+      "proposition": "Algorithm study, implementation assurance and protocol security require distinct evidence.",
+      "source_ids": ["P05", "P06", "P07", "P08", "P12", "P13", "P15", "D11", "S01", "S02", "S03"],
+      "reasoning": "Construction papers, implementation attacks and protocol redesign investigate different failure modes.",
+      "countercase": "Standardization and mature implementations can reduce engineering uncertainty in a specified configuration.",
+      "next_evidence": "Version-specific implementation review, protocol assumptions, test configuration and independent assurance records."
+    },
+    {
+      "id": "TH04",
+      "kind": "synthesis_inference",
+      "proposition": "Deployment feasibility depends on the system boundary and measurement conditions.",
+      "source_ids": ["P09", "P10", "P11", "P14", "D03", "D04", "D07", "D10"],
+      "reasoning": "Network behavior, constrained-device memory and interoperability affect different deployment paths.",
+      "countercase": "Some mainstream transport upgrades may be absorbed by existing platform update mechanisms.",
+      "next_evidence": "Matched end-to-end experiments and full lifecycle migration records for the intended buyer environment."
+    },
+    {
+      "id": "TH05",
+      "kind": "synthesis_inference",
+      "proposition": "Changing resource estimates motivate planning sensitivity, not a precise Q-Day prediction.",
+      "source_ids": ["P01", "P02", "P03", "P04", "M01", "D01"],
+      "reasoning": "Algorithmic possibility, conditional hardware estimates and migration duration are separate variables.",
+      "countercase": "A buyer may still adopt a fixed internal planning horizon as a risk-management decision.",
+      "next_evidence": "Explicit hardware assumptions, uncertainty ranges, confidentiality requirements and migration dependencies."
+    }
+  ]
+}
