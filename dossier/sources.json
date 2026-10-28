@@ -1,0 +1,924 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-10-28",
+  "scope": "Public-source scoping review of PQC market, engineering and research; not an exhaustive systematic review.",
+  "sources": [
+    {
+      "id": "M01",
+      "title": "Security & Risk Management Summit 2026 London: Day 2 Highlights",
+      "publisher": "Gartner",
+      "published": "2026-09-23",
+      "kind": "market_analysis",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-23-gartner-security-and-risk-management-summit-emea-2026-day-2-highlights",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_article",
+      "review_locator": "Stopping the Quantum Threat: PQC in Three Waves; key takeaways",
+      "theme": "demand",
+      "interest": "Paid research and advisory publisher; public remarks only.",
+      "review": {
+        "question": "How might enterprise work be sequenced?",
+        "method": "Public analyst conference summary.",
+        "finding": "Key exchange, PKI/HSMs and signatures form distinct work waves.",
+        "boundary": "Analyst timing opinions are not observed quantum capability.",
+        "implication": "Map buyer tasks rather than a single algorithm purchase."
+      }
+    },
+    {
+      "id": "M02",
+      "title": "Quantum Technology Monitor 2026: A commercial tipping point",
+      "publisher": "McKinsey",
+      "published": "2026-04-28",
+      "kind": "market_analysis",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/mckinsey-quantum-technology-monitor-2026-a-commercial-tipping-point",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_article",
+      "review_locator": "About the report; Quantum technology market",
+      "theme": "market_boundary",
+      "interest": "Consulting research; underlying proprietary analysis not independently reproduced.",
+      "review": {
+        "question": "Is the wider quantum market a valid PQC proxy?",
+        "method": "Public data, interviews and proprietary analysis are described.",
+        "finding": "Computing, communication and sensing are covered together.",
+        "boundary": "Broader technology revenue and economic value are not PQC TAM.",
+        "implication": "Use as a category boundary, not a PQC forecast."
+      }
+    },
+    {
+      "id": "M03",
+      "title": "Future encrypted: Why post-quantum cryptography tops the new cybersecurity agenda",
+      "publisher": "Capgemini Research Institute",
+      "published": "2025-07",
+      "kind": "market_analysis",
+      "url": "https://www.capgemini.com/us-en/insights/research-library/post-quantum-crypto/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pp. 6,17,69; Research methodology and early-adopter definition",
+      "theme": "demand",
+      "interest": "Consultancy research; self-reported organizational responses.",
+      "review": {
+        "question": "What does reported readiness actually measure?",
+        "method": "Survey of 1,000 large organizations; April–May 2025.",
+        "finding": "The activity group includes plans within five years.",
+        "boundary": "Large-company selection and intentions do not establish deployment or revenue.",
+        "implication": "Separate readiness, pilots, production and willingness to pay."
+      },
+      "pdf": {
+        "url": "https://www.capgemini.com/wp-content/uploads/2025/07/CRI_PQC_Research-draft_4th-draft_10072025.pdf",
+        "sha256": "a2137edb0673b22438adacfb53c137529766a1dfe9140a79e39f8b69cfbdc544",
+        "pages": 88,
+        "reviewed_pages": [
+          6,
+          17,
+          69
+        ]
+      }
+    },
+    {
+      "id": "M04",
+      "title": "Post-Quantum Cryptography Market: Global Forecast to 2031",
+      "publisher": "MarketsandMarkets",
+      "published": "2026-10",
+      "kind": "market_analysis",
+      "url": "https://www.marketsandmarkets.com/Market-Reports/post-quantum-cryptography-market-126986626.html",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_summary",
+      "review_locator": "Overview; Report Code TC 9164; scope and methodology labels",
+      "theme": "forecast",
+      "interest": "Sells the forecast report; not audited realized revenue.",
+      "review": {
+        "question": "What market is the forecast counting?",
+        "method": "Public commercial report summary; full model not inspected.",
+        "finding": "The headline projects a defined solutions/services market.",
+        "boundary": "Detailed definitions, reconciliation and estimation model remain inaccessible.",
+        "implication": "Retain the estimate as publisher-specific, without pooling."
+      }
+    },
+    {
+      "id": "M05",
+      "title": "Post-Quantum Cryptography Market, 2026–2033",
+      "publisher": "Grand View Research",
+      "published": "2026-06",
+      "kind": "market_analysis",
+      "url": "https://www.grandviewresearch.com/industry-analysis/post-quantum-cryptography-market-report",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_summary",
+      "review_locator": "Market Summary; Report Scope; June 2026 edition",
+      "theme": "forecast",
+      "interest": "Commercial report publisher; full paid analysis not reviewed.",
+      "review": {
+        "question": "Why does this headline differ from peers?",
+        "method": "Public report summary and segment definitions.",
+        "finding": "A larger published base accompanies a different horizon.",
+        "boundary": "The public material cannot reconcile its coverage with other estimates.",
+        "implication": "Expose scope and methodology uncertainty before market sizing."
+      }
+    },
+    {
+      "id": "M06",
+      "title": "Post-quantum Cryptography Market to Exceed $13 Billion by 2035",
+      "publisher": "Juniper Research",
+      "published": "2026-01-19",
+      "kind": "market_analysis",
+      "url": "https://www.juniperresearch.com/press/post-quantum-cryptography-market-to-exceed-13-billion-by-2035-as-q-day-awareness-accelerates/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_summary",
+      "review_locator": "Opening market forecast; research-suite description",
+      "theme": "forecast",
+      "interest": "Sells research and market-intelligence products.",
+      "review": {
+        "question": "How should a long-horizon forecast be used?",
+        "method": "Publisher press release for a commercial research suite.",
+        "finding": "It reports expansion across a nine-year forecast horizon.",
+        "boundary": "Public summary does not expose a reproducible category reconciliation.",
+        "implication": "Keep its horizon and definition attached to every number."
+      }
+    },
+    {
+      "id": "M07",
+      "title": "Quantum Cryptography Market: Regional Forecast, 2026–2034",
+      "publisher": "Fortune Business Insights",
+      "published": "2026-09-21",
+      "kind": "market_analysis",
+      "url": "https://www.fortunebusinessinsights.com/industry-reports/quantum-cryptography-market-100211",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_summary",
+      "review_locator": "Market definition; type segmentation; key market insights",
+      "theme": "market_boundary",
+      "interest": "Commercial market-report publisher; full report not inspected.",
+      "review": {
+        "question": "Is quantum cryptography the same market as PQC?",
+        "method": "Public commercial summary segmented by QKD, QRNG and others.",
+        "finding": "The named categories include physical quantum technologies.",
+        "boundary": "This is an adjacent category, not an interchangeable PQC estimate.",
+        "implication": "Exclude it from a purported PQC consensus."
+      }
+    },
+    {
+      "id": "M08",
+      "title": "Postquantum Cryptography: Why You Need to Be Ready by 2030",
+      "publisher": "Gartner",
+      "published": "2025-10-27",
+      "kind": "market_analysis",
+      "url": "https://www.gartner.com/en/documents/7116630",
+      "accessed_on": "2026-10-28",
+      "access_scope": "abstract_only",
+      "review_locator": "Public title, publication date and Insights Abstract",
+      "theme": "demand",
+      "interest": "Licensed analyst research; abstract-only access.",
+      "review": {
+        "question": "What does the accessible analyst record establish?",
+        "method": "Public abstract of licensed research.",
+        "finding": "It recommends a migration-program completion target.",
+        "boundary": "The report body and detailed reasoning were not accessed.",
+        "implication": "Log the recommendation without pretending to review the full report."
+      }
+    },
+    {
+      "id": "P01",
+      "title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+      "publisher": "arXiv / SIAM publication record",
+      "published": "1997",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/quant-ph/9508027",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 2, 4",
+      "theme": "foundations",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "Which cryptographic problems are threatened?",
+        "method": "Quantum algorithms for factoring and discrete logarithms.",
+        "finding": "Polynomial asymptotic complexity changes the underlying threat model.",
+        "boundary": "It does not supply a hardware arrival date or deployment cost.",
+        "implication": "Separate mathematical possibility from an operational quantum attack."
+      },
+      "authors": "Shor",
+      "publication_status": "journal_article",
+      "pdf": {
+        "url": "https://arxiv.org/pdf/quant-ph/9508027",
+        "sha256": "96ba03bbfa27ea6a9ab5f1795cb62166948a6de4d8da84f9f43044bb5ab58838",
+        "pages": 28,
+        "reviewed_pages": [
+          1,
+          2,
+          4
+        ]
+      },
+      "venue": "SIAM Journal on Computing, 1997; arXiv v2, 1996"
+    },
+    {
+      "id": "P02",
+      "title": "Cybersecurity in an era with quantum computers: will we be ready?",
+      "publisher": "IACR Cryptology ePrint Archive",
+      "published": "2015",
+      "kind": "paper",
+      "url": "https://eprint.iacr.org/2015/1075",
+      "accessed_on": "2026-10-28",
+      "access_scope": "author_article_and_metadata",
+      "review_locator": "Paper metadata; author ISACA article, Managing Quantum Risk",
+      "theme": "foundations",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "When must migration precede a hypothetical threat?",
+        "method": "Paper metadata and the author's public timing discussion.",
+        "finding": "Confidentiality lifetime and migration duration interact with the horizon.",
+        "boundary": "The original PDF was inaccessible; this is a planning relation, not a forecast.",
+        "implication": "Attribute the timing model's conceptual lineage to Mosca."
+      },
+      "authors": "Mosca",
+      "publication_status": "preprint_record",
+      "alternate_primary_url": "https://www.isaca.org/resources/isaca-journal/issues/2015/volume-5/cybersecurity-in-the-quantum-world",
+      "venue": "Cryptology ePrint Archive 2015/1075; related author article, ISACA 2015"
+    },
+    {
+      "id": "P03",
+      "title": "How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits",
+      "publisher": "arXiv / Quantum publication record",
+      "published": "2021",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/1905.09749",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 2, 22",
+      "theme": "resource_estimates",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "What resources could an RSA attack require?",
+        "method": "Fault-tolerant construction under explicit superconducting-platform assumptions.",
+        "finding": "An estimate includes error correction and substantial physical resources.",
+        "boundary": "Gate errors, cycle times and architecture are assumed, not available hardware.",
+        "implication": "Treat the headline as a conditional engineering estimate."
+      },
+      "authors": "Gidney and Ekerå",
+      "publication_status": "journal_article",
+      "pdf": {
+        "url": "https://arxiv.org/pdf/1905.09749",
+        "sha256": "297bfeafbc0705e915e2c886103e77676cd0b483699a79bb51ea75a077727912",
+        "pages": 31,
+        "reviewed_pages": [
+          1,
+          2,
+          22
+        ]
+      },
+      "venue": "Quantum 5, 433 (2021); arXiv v3"
+    },
+    {
+      "id": "P04",
+      "title": "How to factor 2048 bit RSA integers with less than a million noisy qubits",
+      "publisher": "arXiv / Google author record",
+      "published": "2025",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/2505.15917",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 2, 21",
+      "theme": "resource_estimates",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "Can resource engineering materially change estimates?",
+        "method": "Arithmetic, storage and fault-tolerance optimizations under stated assumptions.",
+        "finding": "The estimate changes qubit requirements and execution-time trade-offs.",
+        "boundary": "It is not an experimental RSA-2048 break or a Q-Day date.",
+        "implication": "Stress-test planning against changing resource estimates."
+      },
+      "authors": "Gidney",
+      "publication_status": "preprint_record",
+      "pdf": {
+        "url": "https://arxiv.org/pdf/2505.15917",
+        "sha256": "6a430815085bd029846ae7e6ebc96a147a78faf43f6286110f5a2a8f391fa3f9",
+        "pages": 40,
+        "reviewed_pages": [
+          1,
+          2,
+          21
+        ]
+      },
+      "venue": "arXiv:2505.15917 (2025), preprint record"
+    },
+    {
+      "id": "P05",
+      "title": "CRYSTALS – Kyber: a CCA-secure module-lattice-based KEM",
+      "publisher": "ETH Zurich author archive",
+      "published": "2018",
+      "kind": "paper",
+      "url": "https://crypto.ethz.ch/publications/BDKLL18.html",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 3, 5",
+      "theme": "scheme_design",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "How is a practical lattice KEM constructed?",
+        "method": "Module-LWE construction with a chosen-ciphertext-security transform.",
+        "finding": "It connects assumptions, parameters and implementation trade-offs.",
+        "boundary": "Historical Kyber is not byte-for-byte the final ML-KEM specification.",
+        "implication": "Trace algorithm lineage while using current standards for implementation."
+      },
+      "authors": "Bos et al.",
+      "publication_status": "conference_paper",
+      "pdf": {
+        "url": "https://crypto.ethz.ch/publications/files/BDKLL18.pdf",
+        "sha256": "7ff3dfeab575b8d6d941278bad47f118a0bf7d77405decd86f5ebc492bb97480",
+        "pages": 16,
+        "reviewed_pages": [
+          1,
+          3,
+          5
+        ]
+      },
+      "venue": "IEEE EuroS&P 2018; author-hosted version"
+    },
+    {
+      "id": "P06",
+      "title": "CRYSTALS-Dilithium: A Lattice-Based Digital Signature Scheme",
+      "publisher": "CRYSTALS author archive / IACR TCHES",
+      "published": "2018",
+      "kind": "paper",
+      "url": "https://pq-crystals.org/dilithium/data/dilithium-20180114.pdf",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 2, 7",
+      "theme": "scheme_design",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "How can signature design simplify secure implementation?",
+        "method": "Lattice signatures using uniform sampling and optimized arithmetic.",
+        "finding": "Implementation simplicity is an explicit design objective.",
+        "boundary": "Design intent does not certify every compiler or device implementation.",
+        "implication": "Separate signatures, implementation assurance and current ML-DSA conformance."
+      },
+      "authors": "Ducas et al.",
+      "publication_status": "journal_article",
+      "pdf": {
+        "url": "https://pq-crystals.org/dilithium/data/dilithium-20180114.pdf",
+        "sha256": "b95e5d87562661c645236cc8e347d4c2060c17a401f813d650a59c824e6e2116",
+        "pages": 31,
+        "reviewed_pages": [
+          1,
+          2,
+          7
+        ]
+      },
+      "venue": "IACR TCHES 2018(1), 238–268"
+    },
+    {
+      "id": "P07",
+      "title": "The SPHINCS+ Signature Framework",
+      "publisher": "IACR Cryptology ePrint Archive",
+      "published": "2019",
+      "kind": "paper",
+      "url": "https://eprint.iacr.org/2019/1086",
+      "accessed_on": "2026-10-28",
+      "access_scope": "abstract_only",
+      "review_locator": "Primary abstract and publication metadata",
+      "theme": "scheme_design",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "What alternative assumptions support signatures?",
+        "method": "Primary abstract describes stateless hash-based signatures and FORS.",
+        "finding": "The framework offers a different assumption and performance profile.",
+        "boundary": "Full-PDF retrieval failed; proof details were not reviewed.",
+        "implication": "Use it for lineage and diversification, not a universal ranking."
+      },
+      "authors": "Bernstein et al.",
+      "publication_status": "conference_paper",
+      "venue": "ACM CCS 2019; ePrint 2019/1086"
+    },
+    {
+      "id": "P08",
+      "title": "Hybrid Key Encapsulation Mechanisms and Authenticated Key Exchange",
+      "publisher": "Douglas Stebila author archive",
+      "published": "2019",
+      "kind": "paper",
+      "url": "https://www.douglas.stebila.ca/research/papers/PQCrypto-BBFGS19/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 3, 10",
+      "theme": "protocols",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "When does combining schemes preserve intended security?",
+        "method": "Formal KEM notions, combiners and authenticated exchange models.",
+        "finding": "Hybrid guarantees require a specified construction and adversary model.",
+        "boundary": "A proof for a construction does not validate arbitrary concatenation or deployment.",
+        "implication": "Require combiner, authentication and protocol details."
+      },
+      "authors": "Bindel et al.",
+      "publication_status": "conference_paper",
+      "pdf": {
+        "url": "https://www.douglas.stebila.ca/files/research/papers/EPRINT-BBFGS18.pdf",
+        "sha256": "5a3f59d26cfbd64c34846640aa0bee8d40dfccaaff0cdf3b37e9e0009671c1bf",
+        "pages": 33,
+        "reviewed_pages": [
+          1,
+          3,
+          10
+        ]
+      },
+      "venue": "PQCrypto 2019; author full version"
+    },
+    {
+      "id": "P09",
+      "title": "Benchmarking Post-Quantum Cryptography in TLS",
+      "publisher": "Douglas Stebila author archive",
+      "published": "2020",
+      "kind": "paper",
+      "url": "https://www.douglas.stebila.ca/research/papers/PQCrypto-PaqSteTam20/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 5, 6, 12",
+      "theme": "benchmarks",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "How do network conditions change protocol costs?",
+        "method": "Controlled Linux network emulation plus Internet experiments.",
+        "finding": "Latency, packet loss and fragmentation change handshake behavior.",
+        "boundary": "Historical candidates and platforms cannot supply current product benchmarks.",
+        "implication": "Measure end-to-end conditions, not primitive cycles alone."
+      },
+      "authors": "Paquin, Stebila and Tamvada",
+      "publication_status": "conference_paper",
+      "pdf": {
+        "url": "https://www.douglas.stebila.ca/files/research/papers/PQCrypto-PaqSteTam20.pdf",
+        "sha256": "440dd8cab4fa5993a7777d594cbdb606c2b9b4b19f37a5794da3b39823d90a83",
+        "pages": 21,
+        "reviewed_pages": [
+          1,
+          5,
+          6,
+          12
+        ]
+      },
+      "venue": "PQCrypto 2020; author full version"
+    },
+    {
+      "id": "P10",
+      "title": "pqm4: Testing and Benchmarking NIST PQC on ARM Cortex-M4",
+      "publisher": "IACR Cryptology ePrint Archive",
+      "published": "2019",
+      "kind": "paper",
+      "url": "https://eprint.iacr.org/2019/844",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 2, 4",
+      "theme": "benchmarks",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "Which schemes fit a constrained microcontroller?",
+        "method": "Board-specific functional, cycle, memory and code-size measurements.",
+        "finding": "Resource limits exclude some implementations from the tested set.",
+        "boundary": "The candidate inventory is a July 2019 snapshot.",
+        "implication": "Keep hardware, implementation and measurement scope with results."
+      },
+      "authors": "Kannwischer et al.",
+      "publication_status": "preprint_record",
+      "pdf": {
+        "url": "https://www.cryptojedi.org/papers/pqm4-20190721.pdf",
+        "sha256": "5a07740f644cf1064b35a899131e177a3cc1a9b0fe8228f077263785b6b42cea",
+        "pages": 22,
+        "reviewed_pages": [
+          1,
+          2,
+          4
+        ]
+      },
+      "venue": "Cryptology ePrint Archive 2019/844"
+    },
+    {
+      "id": "P11",
+      "title": "pqm4: Benchmarking NIST Additional Post-Quantum Signature Schemes on Microcontrollers",
+      "publisher": "IACR Cryptology ePrint Archive",
+      "published": "2024",
+      "kind": "paper",
+      "url": "https://eprint.iacr.org/2024/112",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 2, 3, 5",
+      "theme": "benchmarks",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "How do additional signatures behave on embedded hardware?",
+        "method": "Integrates candidates and records performance and exclusion reasons.",
+        "finding": "Memory, portability and implementation availability affect feasibility.",
+        "boundary": "A different board and candidate generation prevent naive historical comparisons.",
+        "implication": "Preserve exclusions and configuration alongside performance."
+      },
+      "authors": "Kannwischer, Krausz, Petri and Yang",
+      "publication_status": "preprint_record",
+      "pdf": {
+        "url": "https://kannwischer.eu/papers/2024_pqm4.pdf",
+        "sha256": "a63472d240ed331061b58f7dd3b145683bc4593146eef1e78243e9c14f65859b",
+        "pages": 22,
+        "reviewed_pages": [
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      "venue": "Cryptology ePrint Archive 2024/112"
+    },
+    {
+      "id": "P12",
+      "title": "KyberSlash: Exploiting secret-dependent division timings in Kyber implementations",
+      "publisher": "IACR Cryptology ePrint Archive",
+      "published": "2025",
+      "kind": "paper",
+      "url": "https://eprint.iacr.org/2024/1049",
+      "accessed_on": "2026-10-28",
+      "access_scope": "abstract_only",
+      "review_locator": "Primary abstract and publication metadata",
+      "theme": "cryptanalysis",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "Can implementation behavior defeat an otherwise studied design?",
+        "method": "Primary abstract and author notes report timing experiments.",
+        "finding": "Secret-dependent division enabled key recovery in affected implementations.",
+        "boundary": "The complete paper was not retrieved; this is not a break of all ML-KEM.",
+        "implication": "Inspect implementation, platform and patch scope separately."
+      },
+      "authors": "Bernstein et al.",
+      "publication_status": "journal_article",
+      "venue": "IACR TCHES 2025(2), 209–234; ePrint 2024/1049"
+    },
+    {
+      "id": "P13",
+      "title": "An efficient key recovery attack on SIDH",
+      "publisher": "IACR Cryptology ePrint Archive",
+      "published": "2023",
+      "kind": "paper",
+      "url": "https://eprint.iacr.org/2022/975",
+      "accessed_on": "2026-10-28",
+      "access_scope": "abstract_only",
+      "review_locator": "Primary abstract and publication metadata",
+      "theme": "cryptanalysis",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "Can a promising candidate fail under new analysis?",
+        "method": "Primary abstract describes an attack exploiting SIDH auxiliary structure.",
+        "finding": "The reported classical attack undermines the targeted construction.",
+        "boundary": "Abstract-only review cannot audit the proof or generalize to all isogeny schemes.",
+        "implication": "Keep cryptanalytic uncertainty and algorithm specificity visible."
+      },
+      "authors": "Castryck and Decru",
+      "publication_status": "conference_paper",
+      "venue": "EUROCRYPT 2023; ePrint 2022/975"
+    },
+    {
+      "id": "P14",
+      "title": "Frodo: Take off the ring! Practical, Quantum-Secure Key Exchange from LWE",
+      "publisher": "Douglas Stebila author archive",
+      "published": "2016",
+      "kind": "paper",
+      "url": "https://www.douglas.stebila.ca/research/papers/CCS-BCDMNNRS16/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 3, 20",
+      "theme": "scheme_design",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "What does reducing algebraic structure cost?",
+        "method": "LWE construction with implementation and TLS experiments.",
+        "finding": "Assumption choices create communication and computation trade-offs.",
+        "boundary": "Its historical measurements are not current FrodoKEM or ML-KEM performance.",
+        "implication": "Assess structural assumptions together with deployment constraints."
+      },
+      "authors": "Bos et al.",
+      "publication_status": "conference_paper",
+      "pdf": {
+        "url": "https://www.douglas.stebila.ca/files/research/papers/CCS-BCDMNNRS16-full.pdf",
+        "sha256": "fc09b10ab451aa9bb2fabd9a41dd28e11aeccc290fe4653edc21314f14b9a994",
+        "pages": 26,
+        "reviewed_pages": [
+          1,
+          3,
+          20
+        ]
+      },
+      "venue": "ACM CCS 2016; author full version"
+    },
+    {
+      "id": "P15",
+      "title": "Post-Quantum TLS Without Handshake Signatures",
+      "publisher": "KEMTLS author project",
+      "published": "2020",
+      "kind": "paper",
+      "url": "https://kemtls.org/publication/kemtls/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pages 1, 2, 3",
+      "theme": "protocols",
+      "interest": "Research authors; no independent reproduction or proof audit performed here.",
+      "review": {
+        "question": "Can authentication be redesigned around KEMs?",
+        "method": "Protocol construction, security analysis and implementation experiments.",
+        "finding": "KEMTLS changes the handshake rather than swapping primitive labels.",
+        "boundary": "Research-protocol results do not imply stock TLS interoperability.",
+        "implication": "Distinguish protocol redesign from drop-in algorithm replacement."
+      },
+      "authors": "Schwabe, Stebila and Wiggers",
+      "publication_status": "conference_paper",
+      "pdf": {
+        "url": "https://kemtls.org/publication/kemtls/kemtls.pdf",
+        "sha256": "d7245697cc727640f2b10e1d7e81799201fcb71ebae67d6df0e6d5df5210e452",
+        "pages": 26,
+        "reviewed_pages": [
+          1,
+          2,
+          3
+        ]
+      },
+      "venue": "ACM CCS 2020; full version January 2022"
+    },
+    {
+      "id": "D01",
+      "title": "Transition to Post-Quantum Cryptography Standards, NIST IR 8547",
+      "publisher": "NIST",
+      "published": "2026-10-27",
+      "kind": "policy_or_deployment",
+      "url": "https://csrc.nist.gov/pubs/ir/8547/final",
+      "accessed_on": "2026-10-28",
+      "access_scope": "full_pdf_selected_sections",
+      "review_locator": "PDF pp. 8,20; transition approach and timelines",
+      "theme": "policy",
+      "interest": "Government guidance, not vendor assurance or revenue evidence.",
+      "review": {
+        "question": "What changed in the finalized migration roadmap?",
+        "method": "Final technical transition report.",
+        "finding": "Risk priorities and cryptographic functions have differentiated transition treatment.",
+        "boundary": "Federal-focused applicability is not a universal private-sector legal deadline.",
+        "implication": "Map obligations and dependencies to the actual organization."
+      },
+      "pdf": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2026/NIST.IR.8547.pdf",
+        "sha256": "cf1c5b3eeb3bdd8bf1c30e16bb6f1a77b46f75eb619619e14d05f0821f4272c4",
+        "pages": 34,
+        "reviewed_pages": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "id": "D02",
+      "title": "Timelines for migration to post-quantum cryptography",
+      "publisher": "UK NCSC",
+      "published": "2025-03-20",
+      "kind": "policy_or_deployment",
+      "url": "https://www.ncsc.gov.uk/guidance/pqc-migration-timelines",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_article",
+      "review_locator": "Executive summary; milestones 2028,2031,2035",
+      "theme": "policy",
+      "interest": "Government guidance; implementation remains context dependent.",
+      "review": {
+        "question": "How does a staged migration programme look?",
+        "method": "UK guidance separates discovery, priorities and completion.",
+        "finding": "Planning and dependency discovery precede broad transition.",
+        "boundary": "Indicative guidance is not a global statutory deadline.",
+        "implication": "Use staged buyer tasks with jurisdiction stated."
+      }
+    },
+    {
+      "id": "D03",
+      "title": "Project Leap phase 2: quantum-proofing payment systems",
+      "publisher": "BIS Innovation Hub",
+      "published": "2025",
+      "kind": "policy_or_deployment",
+      "url": "https://www.bis.org/publications/project-leap-phase-2-quantum-proofing-payment-systems",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_article",
+      "review_locator": "Project summary; report section 5 conclusion available in indexed extract",
+      "theme": "deployment",
+      "interest": "Official experiment summary; underlying results not reproduced here.",
+      "review": {
+        "question": "What does a payment-system experiment reveal?",
+        "method": "Multi-party test replaces signatures in liquidity transfers.",
+        "finding": "Compatibility changes and performance differences require coordinated preparation.",
+        "boundary": "An experimental system is not evidence of sector-wide rollout.",
+        "implication": "Budget for integration and negative-control testing, not algorithms alone."
+      }
+    },
+    {
+      "id": "D04",
+      "title": "PQ.03 Guidelines for Telecom Use Cases V2.0",
+      "publisher": "GSMA",
+      "published": null,
+      "kind": "policy_or_deployment",
+      "url": "https://www.gsma.com/solutions-and-impact/technologies/security/gsma_resources/post-quantum-cryptography-guidelines-for-telecom-use-cases-pq-03-2/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_summary",
+      "review_locator": "Scope; V2.0 migration description",
+      "theme": "deployment",
+      "interest": "Industry-member guidance; full report body not reviewed.",
+      "review": {
+        "question": "Why do telecom use cases require separate migration plans?",
+        "method": "Industry guidelines map architectures, standards and performance implications.",
+        "finding": "Phased transformation depends on use case and stakeholders.",
+        "boundary": "Public scope does not establish deployment rates or measured performance.",
+        "implication": "Treat telecom as several buyer workflows."
+      }
+    },
+    {
+      "id": "D05",
+      "title": "State of the post-quantum Internet in 2025",
+      "publisher": "Cloudflare",
+      "published": "2025",
+      "kind": "policy_or_deployment",
+      "url": "https://blog.cloudflare.com/pq-2025/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_article",
+      "review_locator": "Opening traffic milestone and migration discussion",
+      "theme": "deployment",
+      "interest": "Provider self-report; no independent traffic audit.",
+      "review": {
+        "question": "What does a traffic adoption metric measure?",
+        "method": "Provider reports its human-initiated traffic observation.",
+        "finding": "The milestone concerns a defined traffic population.",
+        "boundary": "It is not all Internet traffic or enterprise-wide readiness.",
+        "implication": "Keep the denominator and covered cryptographic function explicit."
+      }
+    },
+    {
+      "id": "D06",
+      "title": "iMessage with PQ3",
+      "publisher": "Apple Security Research",
+      "published": "2024-02-21",
+      "kind": "policy_or_deployment",
+      "url": "https://security.apple.com/blog/imessage-pq3/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_article",
+      "review_locator": "Initial establishment, rekeying and hybrid design sections",
+      "theme": "deployment",
+      "interest": "Vendor engineering claims, not an independent product ranking.",
+      "review": {
+        "question": "What makes migration a protocol problem?",
+        "method": "Vendor engineering account of hybrid establishment and rekeying.",
+        "finding": "The design addresses ongoing conversation security as well as setup.",
+        "boundary": "Vendor-defined levels are not a universal comparative standard.",
+        "implication": "Evaluate the threat model and recovery properties."
+      }
+    },
+    {
+      "id": "D07",
+      "title": "A new path for Kyber on the web",
+      "publisher": "Google Chrome Team",
+      "published": "2024-09-13",
+      "kind": "policy_or_deployment",
+      "url": "https://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_article",
+      "review_locator": "Chrome 131 changes and compatibility discussion",
+      "theme": "deployment",
+      "interest": "Provider-authored implementation notice.",
+      "review": {
+        "question": "Why does standardization require migration work?",
+        "method": "Engineering notice describes Kyber-to-ML-KEM codepoint changes.",
+        "finding": "The final specification is incompatible with the experimental variant.",
+        "boundary": "The announcement is historical, not current browser support documentation.",
+        "implication": "Pin versions and wire formats before interoperability claims."
+      }
+    },
+    {
+      "id": "D08",
+      "title": "OpenSSL 3.5 Final Release",
+      "publisher": "OpenSSL Library",
+      "published": "2025-04-08",
+      "kind": "policy_or_deployment",
+      "url": "https://openssl-library.org/post/2025-04-08-openssl-35-final-release/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_article",
+      "review_locator": "PQC feature list",
+      "theme": "deployment",
+      "interest": "Maintainer announcement; not a recommendation to install the initial release.",
+      "review": {
+        "question": "How does distribution change the commercial layer?",
+        "method": "Official library release announcement.",
+        "finding": "Native support includes ML-KEM, ML-DSA and SLH-DSA.",
+        "boundary": "Feature availability does not establish application configuration or assurance.",
+        "implication": "Distinguish bundled primitives from paid integration and operations."
+      }
+    },
+    {
+      "id": "D09",
+      "title": "Status Report on the Fourth Round, NIST IR 8545",
+      "publisher": "NIST",
+      "published": "2025-03",
+      "kind": "policy_or_deployment",
+      "url": "https://csrc.nist.gov/pubs/ir/8545/final",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_summary",
+      "review_locator": "Official abstract and selection scope",
+      "theme": "policy",
+      "interest": "Government selection account; complete technical report not reviewed.",
+      "review": {
+        "question": "How does the algorithm portfolio evolve?",
+        "method": "Official fourth-round evaluation report summary.",
+        "finding": "HQC was selected for further standard development.",
+        "boundary": "A selection record is not itself a final algorithm standard.",
+        "implication": "Keep selection, draft and final-standard status distinct."
+      }
+    },
+    {
+      "id": "D10",
+      "title": "RFC 9954: Hybrid Key Exchange in TLS 1.3",
+      "publisher": "RFC Editor / IETF",
+      "published": "2026-07",
+      "kind": "policy_or_deployment",
+      "url": "https://www.rfc-editor.org/rfc/rfc9954.html",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_article",
+      "review_locator": "Status; sections 1.3,3,6",
+      "theme": "protocols",
+      "interest": "Published technical specification; no product validation implied.",
+      "review": {
+        "question": "What does the published hybrid construction cover?",
+        "method": "Informational RFC defines a hybrid key-exchange construction.",
+        "finding": "Its scope separates ephemeral exchange from authentication.",
+        "boundary": "Informational publication is not an Internet Standards Track status.",
+        "implication": "Name the specification and its exact scope."
+      }
+    },
+    {
+      "id": "D11",
+      "title": "A blueprint for formal verification of Apple corecrypto",
+      "publisher": "Apple Security Research",
+      "published": "2026-05-22",
+      "kind": "policy_or_deployment",
+      "url": "https://security.apple.com/blog/formal-verification-corecrypto/",
+      "accessed_on": "2026-10-28",
+      "access_scope": "public_article",
+      "review_locator": "Implementation criteria and verification scope",
+      "theme": "assurance",
+      "interest": "Vendor-authored account; proofs not independently audited here.",
+      "review": {
+        "question": "Which assurance property is being demonstrated?",
+        "method": "Vendor describes implementation proofs against algorithm specifications.",
+        "finding": "Correctness, optimization and hardening are separate engineering criteria.",
+        "boundary": "A correctness proof is not complete protocol or side-channel assurance.",
+        "implication": "Ask what is proved, on which implementation and assumptions."
+      }
+    },
+    {
+      "id": "S01",
+      "title": "Module-Lattice-Based Key-Encapsulation Mechanism Standard",
+      "publisher": "NIST",
+      "published": "2024-08-13",
+      "kind": "standard",
+      "url": "https://csrc.nist.gov/pubs/fips/203/final",
+      "accessed_on": "2026-10-28",
+      "access_scope": "standard_abstract",
+      "review_locator": "FIPS 203: official abstract and final publication metadata",
+      "theme": "standards",
+      "interest": "Normative source; algorithm function only in this review.",
+      "review": {
+        "question": "What cryptographic function is standardized?",
+        "method": "Official normative publication abstract.",
+        "finding": "ML-KEM establishes a shared secret.",
+        "boundary": "The abstract does not establish implementation certification or current errata coverage.",
+        "implication": "Use the standard's function, not a vendor-security shortcut."
+      }
+    },
+    {
+      "id": "S02",
+      "title": "Module-Lattice-Based Digital Signature Standard",
+      "publisher": "NIST",
+      "published": "2024-08-13",
+      "kind": "standard",
+      "url": "https://csrc.nist.gov/pubs/fips/204/final",
+      "accessed_on": "2026-10-28",
+      "access_scope": "standard_abstract",
+      "review_locator": "FIPS 204: official abstract and final publication metadata",
+      "theme": "standards",
+      "interest": "Normative source; algorithm function only in this review.",
+      "review": {
+        "question": "What cryptographic function is standardized?",
+        "method": "Official normative publication abstract.",
+        "finding": "ML-DSA provides digital signatures.",
+        "boundary": "The abstract does not establish implementation certification or current errata coverage.",
+        "implication": "Use the standard's function, not a vendor-security shortcut."
+      }
+    },
+    {
+      "id": "S03",
+      "title": "Stateless Hash-Based Digital Signature Standard",
+      "publisher": "NIST",
+      "published": "2024-08-13",
+      "kind": "standard",
+      "url": "https://csrc.nist.gov/pubs/fips/205/final",
+      "accessed_on": "2026-10-28",
+      "access_scope": "standard_abstract",
+      "review_locator": "FIPS 205: official abstract and final publication metadata",
+      "theme": "standards",
+      "interest": "Normative source; algorithm function only in this review.",
+      "review": {
+        "question": "What cryptographic function is standardized?",
+        "method": "Official normative publication abstract.",
+        "finding": "SLH-DSA provides hash-based signatures.",
+        "boundary": "The abstract does not establish implementation certification or current errata coverage.",
+        "implication": "Use the standard's function, not a vendor-security shortcut."
+      }
+    }
+  ]
+}
