@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-10-29",
+  "result_type": "synthetic_scenarios",
+  "source_roles": {
+    "S-EC5-001": "supplied_slides",
+    "S-EC5-002": "standard",
+    "S-EC5-003": "standard",
+    "S-EC5-004": "standard",
+    "S-EC5-005": "government_guidance",
+    "S-EC5-006": "government_guidance",
+    "S-EC5-007": "vendor_primary",
+    "S-EC5-008": "vendor_primary",
+    "S-EC5-009": "synthetic"
+  },
+  "decision_rule": "A research action is justified by located claims and a concrete next evidence gate; it is not a product maturity or safety rating.",
+  "comparison_rule": "Compare only a matched function, task endpoint, version and measurement definition. Preserve non-comparable and unknown outcomes.",
+  "freshness_rule": "Review dates are dated snapshots, not ongoing monitoring. Pin a release and complete test configuration before revising an implementation claim.",
+  "tracked_artifacts": [
+    "evidence.json",
+    "project.json",
+    "research/benchmarks.json",
+    "research/protocol.json",
+    "research/entities.json",
+    "research/assessments.json",
+    "research/releases.json",
+    "research.py",
+    "reproduce.py",
+    "tests/test_research.py",
+    "data/synthetic_inventory.json",
+    "results/migration_scenarios.json",
+    "results/migration_scenarios.csv",
+    "scripts/migration_model.py",
+    "scripts/validate_project.py",
+    "scripts/ingest_pptx.py",
+    "tests/test_project.py",
+    "sources/original.pptx",
+    "sources/slides.json"
+  ]
+}

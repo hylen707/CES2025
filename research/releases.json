@@ -1,0 +1,21 @@
+{
+  "reviewed_on": "2026-10-29",
+  "scope": "Context for a proposed version-specific local fixture, not vendor or protocol validation.",
+  "releases": [
+    {
+      "id": "R-OQS-012",
+      "name": "oqs-provider",
+      "relationship": "External research tool; no vendor dependency or use is asserted.",
+      "version": "0.12.0",
+      "published_at": "2026-10-08T21:30:16Z",
+      "primary_url": "https://github.com/open-quantum-safe/oqs-provider/releases/tag/0.12.0",
+      "release_commit": "7e9d095aff7967fab9a8ce693e3da5357dc59d58",
+      "test_status": "not_tested",
+      "test_result": null,
+      "effect_on_research": "Pin the complete implementation/provider version tuple before any future compatibility fixture; do not infer support from the release name.",
+      "assessment_ids": [
+        "T-COMPAT"
+      ]
+    }
+  ]
+}

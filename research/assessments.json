@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "assessments": [
+    {
+      "id": "T-FUNCTION",
+      "technology": "PQC function and implementation assurance",
+      "entity_ids": [
+        "E-QS",
+        "E-QUR"
+      ],
+      "claim_ids": [
+        "C-EC5-002",
+        "C-EC5-003",
+        "C-EC5-004"
+      ],
+      "evidence_stage": "literature_checked",
+      "disposition": "investigate",
+      "reviewed_on": "2026-10-29",
+      "rationale": "Key establishment, signatures and QKD dependencies answer different engineering questions.",
+      "limitation": "An algorithm standard is not a vendor product assessment or a system-security guarantee.",
+      "next_gate": {
+        "question": "Which function and assumptions are being evaluated?",
+        "required_record": "Versioned algorithm/function map, authentication dependencies and implementation evidence",
+        "acceptance_condition": "Each security claim names its function, parameters, implementation scope and unresolved assumptions."
+      }
+    },
+    {
+      "id": "T-INVENTORY",
+      "technology": "Confidentiality timing and inventory gaps",
+      "entity_ids": [
+        "E-QS",
+        "E-QUR"
+      ],
+      "claim_ids": [
+        "C-EC5-007",
+        "C-EC5-008"
+      ],
+      "evidence_stage": "synthetic_only",
+      "disposition": "replicate",
+      "reviewed_on": "2026-10-29",
+      "rationale": "The five-asset exercise changes the timing margin under explicit retention, migration and horizon assumptions.",
+      "limitation": "It excludes signature assurance, unknown algorithms and a PQC pilot from a security verdict.",
+      "next_gate": {
+        "question": "How sensitive is the planning action to input assumptions?",
+        "required_record": "Synthetic inventory revision, scenario JSON/CSV and documented assumption changes",
+        "acceptance_condition": "All scenario rows reproduce; equality and near-zero cases retain their defined behavior and exclusions."
+      }
+    },
+    {
+      "id": "T-COMPAT",
+      "technology": "Version-specific interoperability follow-up",
+      "entity_ids": [
+        "E-QS",
+        "E-QUR"
+      ],
+      "claim_ids": [
+        "C-EC5-002",
+        "C-EC5-006"
+      ],
+      "evidence_stage": "reported",
+      "disposition": "design_test",
+      "reviewed_on": "2026-10-29",
+      "rationale": "A local compatibility fixture would test a narrower proposition than broad quantum-security marketing.",
+      "limitation": "No cryptographic implementation, provider or vendor deployment has been run in this repository.",
+      "next_gate": {
+        "question": "Does one named configuration negotiate and fail as expected?",
+        "required_record": "Pinned implementation versions, isolated fixture configuration and success/negative-control logs",
+        "acceptance_condition": "An explicitly authorized local fixture records expected negotiation, tamper/failure behavior and reproducible logs without claiming production assurance."
+      }
+    }
+  ]
+}

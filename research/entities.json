@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "entities": [
+    {
+      "id": "E-QS",
+      "name": "QuSecure",
+      "identity_status": "source_reported",
+      "source_ids": [
+        "S-EC5-001",
+        "S-EC5-007"
+      ],
+      "claim_ids": [
+        "C-EC5-001",
+        "C-EC5-005"
+      ],
+      "research_question": "What dated product, deployment and assurance evidence would substantiate the deck's orchestration and government-use claims?",
+      "reported_offerings": [
+        {
+          "description": "The deck and vendor release describe a PQC security offering.",
+          "source_ids": [
+            "S-EC5-001",
+            "S-EC5-007"
+          ],
+          "status": "source_reported"
+        }
+      ],
+      "commercial_evidence": {
+        "revenue": null,
+        "funding": null,
+        "customer_deployments": null
+      }
+    },
+    {
+      "id": "E-QUR",
+      "name": "Quranium",
+      "identity_status": "source_reported",
+      "source_ids": [
+        "S-EC5-001",
+        "S-EC5-008"
+      ],
+      "claim_ids": [
+        "C-EC5-005",
+        "C-EC5-006"
+      ],
+      "research_question": "What versioned architecture and evaluation would substantiate the claimed security, scaling and integration properties?",
+      "reported_offerings": [
+        {
+          "description": "The deck and vendor site describe DeQUIP-related technology.",
+          "source_ids": [
+            "S-EC5-001",
+            "S-EC5-008"
+          ],
+          "status": "source_reported"
+        }
+      ],
+      "commercial_evidence": {
+        "revenue": null,
+        "funding": null,
+        "customer_deployments": null
+      }
+    }
+  ]
+}
