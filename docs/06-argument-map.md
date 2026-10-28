@@ -18,4 +18,4 @@ Full IDs use the `EC5` prefix in the machine-readable ledger. Each claim include
 
 ## Why the argument is stronger after qualification
 
-The output is now falsifiable: a reader can identify the claim, locate its evidence, challenge the reasoning and state what would change the conclusion. A stronger claim would require stronger evidence, not more emphatic phrasing. Independent reasoning by the student remains a separate requirement from an AI-assisted audit.
+The output is now falsifiable: a reader can identify the claim, locate its evidence, challenge the reasoning and state what would change the conclusion. A stronger claim would require stronger evidence, not more emphatic phrasing. Independent reasoning by the student remains a separate requirement from the retrospective audit.

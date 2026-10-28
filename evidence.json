@@ -93,7 +93,7 @@
       "access_status": "read",
       "accessed_on": "2026-10-28",
       "locator_scheme": "rows by asset_id and horizon_years",
-      "notes": "New AI-assisted synthetic calculation made 2026-10-28; not a student experiment in 2025.",
+      "notes": "New synthetic calculation made 2026-10-28; not a student experiment in 2025.",
       "local_path": "results/migration_scenarios.json",
       "checksum_sha256": "cc7dd7dce45185b0ab939a24f97c85a4ce6dd0d035d251b1bf9ad84cbbe44a90",
       "local_checksum_sha256": "cc7dd7dce45185b0ab939a24f97c85a4ce6dd0d035d251b1bf9ad84cbbe44a90"
