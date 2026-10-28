@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "ec_id": "EC5",
+  "title": "CES2025: From Quantum-security Claims to Migration Evidence",
+  "source_state": "read",
+  "artifact_state": "draft",
+  "student_verification": "pending",
+  "activity_dates": null,
+  "hours": null,
+  "role": null,
+  "impact": null,
+  "retrospective_preparation_date": "2026-10-28",
+  "preparation_note": "AI-assisted retrospective source audit, primary-reference verification and synthetic migration-planning model completed on 2026-10-28; original source authorship, student ownership, role, activity dates, hours and impact remain unverified."
+}
