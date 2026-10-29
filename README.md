@@ -8,7 +8,7 @@ The central assessment is that PQC commercialization should be examined through 
 
 This is a synthesis to test against evidence. Native platform support can absorb some work into existing products, public market estimates have unresolved scope differences, and a successful experiment does not establish a repeatable enterprise rollout.
 
-CES2025 자료를 출발점으로 양자내성 보안을 하나의 신기술 소개가 아니라 시장·구매 과제·논문·배포 조건이 연결되는 연구 주제로 확장했다. 시장 전망의 범위와 실제 도입 증거를 구분하고, 논문 결과가 적용되는 조건과 남는 불확실성을 분석한다.
+The CES2025 presentation serves as the starting point for a study linking post-quantum security to markets, buyer needs, research papers and deployment constraints. The review distinguishes forecast scope from observed adoption and examines the conditions and uncertainties behind published technical results.
 
 <!-- research-snapshot:start -->
 **Evidence desk** · 37 catalogued records: 15 papers/technical notes, 8 market/analyst records, and 14 standards, policy or deployment records.

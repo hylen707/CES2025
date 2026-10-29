@@ -1,4 +1,4 @@
-# Argument map / 주장·근거·반론
+# Argument map
 
 The ledger stores three different things: **source observation**, **retrospective analysis**, and **proposal**. “Verified source content” means the text was found at the specified locator; it does not certify the text's truth or contributor ownership.
 

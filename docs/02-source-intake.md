@@ -1,4 +1,4 @@
-# Source provenance / 원자료 추적
+# Source provenance
 
 ## Acquired material
 

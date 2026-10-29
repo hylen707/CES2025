@@ -1,4 +1,4 @@
-# Project charter / 프로젝트 범위
+# Project charter
 
 ## Concrete question and contribution
 

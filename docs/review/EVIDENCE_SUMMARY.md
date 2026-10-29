@@ -1,4 +1,4 @@
-# Research evidence summary / 연구 근거 요약
+# Research evidence summary
 
 **Status:** inspectable research artifacts; individual contribution remains unverified.
 
@@ -16,6 +16,6 @@ The supplied CES2025 presentation is preserved as a 12-slide source map. The cla
 | Critical analysis | Countercases, limitations and next evidence | Propositions remain testable inferences |
 | Reproducibility | Source identities, code and offline checks | No cryptographic implementation benchmark performed here |
 
-## 기여 및 연대기
+## Contribution and chronology
 
-원본 자료의 작성자, 행사 참여, 역할, 투입 시간과 성과는 확인된 기록이 있을 때만 명시한다. 2026년 연구 확장을 2025년 당시의 실험이나 활동으로 해석하지 않는다. 개인 기여의 확인 상태는 [기여 검토 기록](CONTRIBUTION_REVIEW.md)과 프로젝트 메타데이터에 별도로 유지한다.
+Attribute authorship, attendance, roles, hours and outcomes only when supported by records. The 2026 research extension does not establish experiments or activities at the 2025 event. Individual contribution status remains in the [contribution review](CONTRIBUTION_REVIEW.md) and project metadata.
